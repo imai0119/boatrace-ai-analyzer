@@ -1,0 +1,34 @@
+
+name: Boat Race Data Collection Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  collect-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run data collection
+        run: python scripts/collect.py
+
+      - name: Upload collected data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: boat-race-collection-test
+          path: |
+            data/raw/
+            data/logs/
+          if-no-files-found: warn
+          retention-days: 3
