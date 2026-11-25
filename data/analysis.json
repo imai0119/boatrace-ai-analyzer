@@ -1,11 +1,17 @@
 {
-  "generated_at": "2026-11-25T15:23:55.260364+00:00",
+  "generated_at": "2026-11-26T01:36:49.489730+09:00",
   "total_rows": 0,
+  "files_read": 0,
   "six_boat": {
     "starts": 0,
-    "first_rate": null,
-    "second_rate": null,
-    "third_rate": null,
-    "top3_rate": null
-  }
+    "first_count": 0,
+    "second_count": 0,
+    "third_count": 0,
+    "top3_count": 0,
+    "first_rate": 0.0,
+    "second_rate": 0.0,
+    "third_rate": 0.0,
+    "top3_rate": 0.0
+  },
+  "status": "waiting_for_race_data"
 }
