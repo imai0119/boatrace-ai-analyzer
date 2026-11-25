@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102b46">
+<title>BOAT RACE AI ANALYZER</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f2f5f9;color:#172536;font-family:-apple-system,sans-serif}
+header{background:#102b46;color:white;padding:24px 18px}
+header h1{font-size:21px;margin:0 0 8px}
+header p{font-size:12px;color:#d0dceb;margin:0}
+main{padding:15px;max-width:650px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.card,.panel{background:white;border-radius:13px;padding:15px;border:1px solid #e1e7ef}
+.card b{font-size:21px;display:block}
+.card span{font-size:11px;color:#64748b}
+.panel{margin-top:13px}
+h2{font-size:16px;margin:0 0 13px}
+.notice{background:#fff7e6;border:1px solid #f1d69b;padding:13px;border-radius:12px;font-size:12px;line-height:1.7;margin-top:13px}
+nav{display:flex;gap:8px;margin:15px 0}
+button{flex:1;padding:12px 5px;border:1px solid #ccd6e2;border-radius:10px;background:white;font-weight:bold;color:#24364b}
+button.active{background:#102b46;color:white}
+.content{background:white;padding:17px;border-radius:13px;min-height:130px}
+small{color:#718096}
+</style>
+</head>
+<body>
+<header>
+<h1>🚤 BOAT RACE AI ANALYZER</h1>
+<p>全国24場対応・6号艇重点分析システム</p>
+</header>
+<main>
+<div class="cards">
+<div class="card"><b>24</b><span>対象競艇場</span></div>
+<div class="card"><b id="races">0</b><span>分析レース</span></div>
+<div class="card"><b>6号艇</b><span>重点分析</span></div>
+</div>
+<div class="notice">
+<b>データ収集準備中</b><br>
+現在は画面の初期構築段階です。データ接続後に実績を表示します。
+</div>
+<nav>
+<button class="active" onclick="show('recommend',this)">おすすめ</button>
+<button onclick="show('analysis',this)">6号艇分析</button>
+<button onclick="show('history',this)">過去成績</button>
+</nav>
+<section class="content" id="content">
+<h2>⭐ おすすめレース</h2>
+<p>分析データがまだありません。</p>
+<small>データ取得開始後、評価順に表示します。</small>
+</section>
+</main>
+<script>
+function show(type,button){
+document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
+button.classList.add('active');
+const content=document.getElementById('content');
+const pages={
+recommend:'<h2>⭐ おすすめレース</h2><p>分析データがまだありません。</p>',
+analysis:'<h2>🚤 6号艇分析</h2><p>1着率・2着率・3着率・3着内率を集計します。</p>',
+history:'<h2>📊 過去成績</h2><p>過去データの的中率・回収率を検証します。</p>'
+};
+content.innerHTML=pages[type];
+}
+</script>
+</body>
+</html>
