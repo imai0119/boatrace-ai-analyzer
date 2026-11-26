@@ -1,17 +1,2659 @@
 {
-  "generated_at": "2026-11-26T22:00:53.305435+09:00",
-  "total_rows": 0,
+  "generated_at": "2026-11-26T22:11:57.735885+09:00",
   "files_read": 25,
-  "six_boat": {
-    "starts": 0,
-    "first_count": 0,
-    "second_count": 0,
-    "third_count": 0,
-    "top3_count": 0,
-    "first_rate": 0.0,
-    "second_rate": 0.0,
-    "third_rate": 0.0,
-    "top3_rate": 0.0
+  "total_course_records": 216,
+  "venue_count": 24,
+  "status": "success",
+  "national_course_summary": {
+    "1": {
+      "starts": 83157,
+      "win_rate": 55.88,
+      "place2_rate": 73.1,
+      "place3_rate": 81.91
+    },
+    "2": {
+      "starts": 83056,
+      "win_rate": 13.39,
+      "place2_rate": 38.83,
+      "place3_rate": 57.81
+    },
+    "3": {
+      "starts": 82991,
+      "win_rate": 12.79,
+      "place2_rate": 34.81,
+      "place3_rate": 54.93
+    },
+    "4": {
+      "starts": 83078,
+      "win_rate": 10.29,
+      "place2_rate": 26.95,
+      "place3_rate": 47.14
+    },
+    "5": {
+      "starts": 82919,
+      "win_rate": 6.04,
+      "place2_rate": 18.9,
+      "place3_rate": 37.48
+    },
+    "6": {
+      "starts": 82161,
+      "win_rate": 1.9,
+      "place2_rate": 8.09,
+      "place3_rate": 21.89
+    }
   },
-  "status": "waiting_for_race_data"
+  "six_course": {
+    "starts": 82161,
+    "win_rate": 1.9,
+    "place2_rate": 8.09,
+    "place3_rate": 21.89
+  },
+  "venue_details": [
+    {
+      "venue": "びわこ",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4356,
+          "win_rate": 54.2,
+          "place2_rate": 72.3,
+          "place3_rate": 80.5
+        },
+        {
+          "course": 2,
+          "starts": 4354,
+          "win_rate": 13.6,
+          "place2_rate": 38.9,
+          "place3_rate": 57.7
+        },
+        {
+          "course": 3,
+          "starts": 4348,
+          "win_rate": 14.0,
+          "place2_rate": 36.2,
+          "place3_rate": 55.7
+        },
+        {
+          "course": 4,
+          "starts": 4348,
+          "win_rate": 10.0,
+          "place2_rate": 25.7,
+          "place3_rate": 45.6
+        },
+        {
+          "course": 5,
+          "starts": 4348,
+          "win_rate": 6.5,
+          "place2_rate": 19.5,
+          "place3_rate": 38.5
+        },
+        {
+          "course": 6,
+          "starts": 4294,
+          "win_rate": 1.8,
+          "place2_rate": 8.0,
+          "place3_rate": 22.8
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4294,
+        "win_rate": 1.8,
+        "place2_rate": 8.0,
+        "place3_rate": 22.8
+      }
+    },
+    {
+      "venue": "三国",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4532,
+          "win_rate": 52.2,
+          "place2_rate": 70.1,
+          "place3_rate": 78.8
+        },
+        {
+          "course": 2,
+          "starts": 4534,
+          "win_rate": 14.8,
+          "place2_rate": 40.0,
+          "place3_rate": 58.9
+        },
+        {
+          "course": 3,
+          "starts": 4534,
+          "win_rate": 14.9,
+          "place2_rate": 36.7,
+          "place3_rate": 55.3
+        },
+        {
+          "course": 4,
+          "starts": 4526,
+          "win_rate": 10.6,
+          "place2_rate": 28.0,
+          "place3_rate": 49.3
+        },
+        {
+          "course": 5,
+          "starts": 4522,
+          "win_rate": 6.0,
+          "place2_rate": 18.1,
+          "place3_rate": 37.5
+        },
+        {
+          "course": 6,
+          "starts": 4498,
+          "win_rate": 1.8,
+          "place2_rate": 7.7,
+          "place3_rate": 21.3
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4498,
+        "win_rate": 1.8,
+        "place2_rate": 7.7,
+        "place3_rate": 21.3
+      }
+    },
+    {
+      "venue": "下関",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4522,
+          "win_rate": 61.7,
+          "place2_rate": 79.1,
+          "place3_rate": 87.0
+        },
+        {
+          "course": 2,
+          "starts": 4514,
+          "win_rate": 10.7,
+          "place2_rate": 36.6,
+          "place3_rate": 57.6
+        },
+        {
+          "course": 3,
+          "starts": 4514,
+          "win_rate": 12.1,
+          "place2_rate": 35.2,
+          "place3_rate": 55.9
+        },
+        {
+          "course": 4,
+          "starts": 4522,
+          "win_rate": 9.1,
+          "place2_rate": 25.1,
+          "place3_rate": 45.1
+        },
+        {
+          "course": 5,
+          "starts": 4516,
+          "win_rate": 4.9,
+          "place2_rate": 17.4,
+          "place3_rate": 36.3
+        },
+        {
+          "course": 6,
+          "starts": 4474,
+          "win_rate": 1.8,
+          "place2_rate": 7.2,
+          "place3_rate": 19.0
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4474,
+        "win_rate": 1.8,
+        "place2_rate": 7.2,
+        "place3_rate": 19.0
+      }
+    },
+    {
+      "venue": "丸亀",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4598,
+          "win_rate": 55.3,
+          "place2_rate": 74.3,
+          "place3_rate": 82.0
+        },
+        {
+          "course": 2,
+          "starts": 4598,
+          "win_rate": 13.1,
+          "place2_rate": 39.2,
+          "place3_rate": 56.9
+        },
+        {
+          "course": 3,
+          "starts": 4598,
+          "win_rate": 12.7,
+          "place2_rate": 32.6,
+          "place3_rate": 51.6
+        },
+        {
+          "course": 4,
+          "starts": 4602,
+          "win_rate": 10.1,
+          "place2_rate": 27.2,
+          "place3_rate": 49.4
+        },
+        {
+          "course": 5,
+          "starts": 4586,
+          "win_rate": 6.9,
+          "place2_rate": 18.8,
+          "place3_rate": 36.2
+        },
+        {
+          "course": 6,
+          "starts": 4548,
+          "win_rate": 2.2,
+          "place2_rate": 8.8,
+          "place3_rate": 25.2
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4548,
+        "win_rate": 2.2,
+        "place2_rate": 8.8,
+        "place3_rate": 25.2
+      }
+    },
+    {
+      "venue": "住之江",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4536,
+          "win_rate": 57.5,
+          "place2_rate": 74.2,
+          "place3_rate": 83.5
+        },
+        {
+          "course": 2,
+          "starts": 4524,
+          "win_rate": 13.9,
+          "place2_rate": 40.1,
+          "place3_rate": 58.2
+        },
+        {
+          "course": 3,
+          "starts": 4526,
+          "win_rate": 11.4,
+          "place2_rate": 33.2,
+          "place3_rate": 56.0
+        },
+        {
+          "course": 4,
+          "starts": 4534,
+          "win_rate": 10.3,
+          "place2_rate": 27.3,
+          "place3_rate": 46.1
+        },
+        {
+          "course": 5,
+          "starts": 4522,
+          "win_rate": 5.3,
+          "place2_rate": 17.6,
+          "place3_rate": 35.1
+        },
+        {
+          "course": 6,
+          "starts": 4492,
+          "win_rate": 1.7,
+          "place2_rate": 7.8,
+          "place3_rate": 21.6
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4492,
+        "win_rate": 1.7,
+        "place2_rate": 7.8,
+        "place3_rate": 21.6
+      }
+    },
+    {
+      "venue": "児島",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2409,
+          "win_rate": 54.1,
+          "place2_rate": 71.5,
+          "place3_rate": 80.7
+        },
+        {
+          "course": 2,
+          "starts": 2405,
+          "win_rate": 12.6,
+          "place2_rate": 36.5,
+          "place3_rate": 54.8
+        },
+        {
+          "course": 3,
+          "starts": 2406,
+          "win_rate": 14.0,
+          "place2_rate": 33.5,
+          "place3_rate": 51.9
+        },
+        {
+          "course": 4,
+          "starts": 2405,
+          "win_rate": 10.8,
+          "place2_rate": 29.6,
+          "place3_rate": 49.7
+        },
+        {
+          "course": 5,
+          "starts": 2408,
+          "win_rate": 6.5,
+          "place2_rate": 19.8,
+          "place3_rate": 39.4
+        },
+        {
+          "course": 6,
+          "starts": 2381,
+          "win_rate": 2.2,
+          "place2_rate": 9.5,
+          "place3_rate": 24.2
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2381,
+        "win_rate": 2.2,
+        "place2_rate": 9.5,
+        "place3_rate": 24.2
+      }
+    },
+    {
+      "venue": "唐津",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4336,
+          "win_rate": 57.6,
+          "place2_rate": 75.7,
+          "place3_rate": 84.2
+        },
+        {
+          "course": 2,
+          "starts": 4334,
+          "win_rate": 13.5,
+          "place2_rate": 41.1,
+          "place3_rate": 61.0
+        },
+        {
+          "course": 3,
+          "starts": 4336,
+          "win_rate": 12.2,
+          "place2_rate": 34.8,
+          "place3_rate": 56.1
+        },
+        {
+          "course": 4,
+          "starts": 4340,
+          "win_rate": 9.5,
+          "place2_rate": 24.9,
+          "place3_rate": 46.2
+        },
+        {
+          "course": 5,
+          "starts": 4324,
+          "win_rate": 6.0,
+          "place2_rate": 17.8,
+          "place3_rate": 36.8
+        },
+        {
+          "course": 6,
+          "starts": 4298,
+          "win_rate": 1.7,
+          "place2_rate": 6.7,
+          "place3_rate": 17.3
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4298,
+        "win_rate": 1.7,
+        "place2_rate": 6.7,
+        "place3_rate": 17.3
+      }
+    },
+    {
+      "venue": "多摩川",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4588,
+          "win_rate": 54.4,
+          "place2_rate": 70.1,
+          "place3_rate": 80.3
+        },
+        {
+          "course": 2,
+          "starts": 4590,
+          "win_rate": 13.5,
+          "place2_rate": 37.7,
+          "place3_rate": 56.6
+        },
+        {
+          "course": 3,
+          "starts": 4570,
+          "win_rate": 12.7,
+          "place2_rate": 35.0,
+          "place3_rate": 55.3
+        },
+        {
+          "course": 4,
+          "starts": 4590,
+          "win_rate": 11.1,
+          "place2_rate": 28.3,
+          "place3_rate": 47.5
+        },
+        {
+          "course": 5,
+          "starts": 4570,
+          "win_rate": 6.2,
+          "place2_rate": 20.1,
+          "place3_rate": 37.5
+        },
+        {
+          "course": 6,
+          "starts": 4544,
+          "win_rate": 2.5,
+          "place2_rate": 9.5,
+          "place3_rate": 23.9
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4544,
+        "win_rate": 2.5,
+        "place2_rate": 9.5,
+        "place3_rate": 23.9
+      }
+    },
+    {
+      "venue": "大村",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2354,
+          "win_rate": 61.0,
+          "place2_rate": 78.7,
+          "place3_rate": 85.3
+        },
+        {
+          "course": 2,
+          "starts": 2347,
+          "win_rate": 12.4,
+          "place2_rate": 39.6,
+          "place3_rate": 58.6
+        },
+        {
+          "course": 3,
+          "starts": 2342,
+          "win_rate": 10.7,
+          "place2_rate": 34.2,
+          "place3_rate": 56.0
+        },
+        {
+          "course": 4,
+          "starts": 2350,
+          "win_rate": 9.0,
+          "place2_rate": 23.6,
+          "place3_rate": 43.6
+        },
+        {
+          "course": 5,
+          "starts": 2347,
+          "win_rate": 5.5,
+          "place2_rate": 17.2,
+          "place3_rate": 35.5
+        },
+        {
+          "course": 6,
+          "starts": 2333,
+          "win_rate": 1.4,
+          "place2_rate": 6.9,
+          "place3_rate": 21.5
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2333,
+        "win_rate": 1.4,
+        "place2_rate": 6.9,
+        "place3_rate": 21.5
+      }
+    },
+    {
+      "venue": "宮島",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4662,
+          "win_rate": 57.4,
+          "place2_rate": 73.7,
+          "place3_rate": 82.1
+        },
+        {
+          "course": 2,
+          "starts": 4652,
+          "win_rate": 12.0,
+          "place2_rate": 37.4,
+          "place3_rate": 57.6
+        },
+        {
+          "course": 3,
+          "starts": 4650,
+          "win_rate": 13.7,
+          "place2_rate": 36.1,
+          "place3_rate": 57.5
+        },
+        {
+          "course": 4,
+          "starts": 4658,
+          "win_rate": 10.1,
+          "place2_rate": 27.0,
+          "place3_rate": 46.6
+        },
+        {
+          "course": 5,
+          "starts": 4646,
+          "win_rate": 5.6,
+          "place2_rate": 18.9,
+          "place3_rate": 37.5
+        },
+        {
+          "course": 6,
+          "starts": 4590,
+          "win_rate": 1.5,
+          "place2_rate": 7.5,
+          "place3_rate": 19.7
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4590,
+        "win_rate": 1.5,
+        "place2_rate": 7.5,
+        "place3_rate": 19.7
+      }
+    },
+    {
+      "venue": "尼崎",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2521,
+          "win_rate": 60.1,
+          "place2_rate": 76.0,
+          "place3_rate": 84.5
+        },
+        {
+          "course": 2,
+          "starts": 2514,
+          "win_rate": 12.3,
+          "place2_rate": 37.4,
+          "place3_rate": 55.1
+        },
+        {
+          "course": 3,
+          "starts": 2513,
+          "win_rate": 11.5,
+          "place2_rate": 32.5,
+          "place3_rate": 53.6
+        },
+        {
+          "course": 4,
+          "starts": 2515,
+          "win_rate": 9.9,
+          "place2_rate": 28.2,
+          "place3_rate": 49.4
+        },
+        {
+          "course": 5,
+          "starts": 2509,
+          "win_rate": 5.0,
+          "place2_rate": 19.2,
+          "place3_rate": 37.6
+        },
+        {
+          "course": 6,
+          "starts": 2484,
+          "win_rate": 1.4,
+          "place2_rate": 7.2,
+          "place3_rate": 20.9
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2484,
+        "win_rate": 1.4,
+        "place2_rate": 7.2,
+        "place3_rate": 20.9
+      }
+    },
+    {
+      "venue": "常滑",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 5092,
+          "win_rate": 58.3,
+          "place2_rate": 73.6,
+          "place3_rate": 82.1
+        },
+        {
+          "course": 2,
+          "starts": 5090,
+          "win_rate": 13.3,
+          "place2_rate": 37.7,
+          "place3_rate": 56.0
+        },
+        {
+          "course": 3,
+          "starts": 5084,
+          "win_rate": 10.4,
+          "place2_rate": 33.3,
+          "place3_rate": 53.8
+        },
+        {
+          "course": 4,
+          "starts": 5088,
+          "win_rate": 10.3,
+          "place2_rate": 27.7,
+          "place3_rate": 48.2
+        },
+        {
+          "course": 5,
+          "starts": 5080,
+          "win_rate": 5.9,
+          "place2_rate": 19.9,
+          "place3_rate": 38.7
+        },
+        {
+          "course": 6,
+          "starts": 5038,
+          "win_rate": 2.1,
+          "place2_rate": 8.4,
+          "place3_rate": 22.3
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 5038,
+        "win_rate": 2.1,
+        "place2_rate": 8.4,
+        "place3_rate": 22.3
+      }
+    },
+    {
+      "venue": "平和島",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2037,
+          "win_rate": 44.5,
+          "place2_rate": 63.3,
+          "place3_rate": 74.8
+        },
+        {
+          "course": 2,
+          "starts": 2032,
+          "win_rate": 16.3,
+          "place2_rate": 40.2,
+          "place3_rate": 60.0
+        },
+        {
+          "course": 3,
+          "starts": 2032,
+          "win_rate": 16.9,
+          "place2_rate": 36.0,
+          "place3_rate": 55.0
+        },
+        {
+          "course": 4,
+          "starts": 2036,
+          "win_rate": 12.3,
+          "place2_rate": 29.3,
+          "place3_rate": 47.4
+        },
+        {
+          "course": 5,
+          "starts": 2030,
+          "win_rate": 7.9,
+          "place2_rate": 21.8,
+          "place3_rate": 38.2
+        },
+        {
+          "course": 6,
+          "starts": 2014,
+          "win_rate": 2.5,
+          "place2_rate": 10.4,
+          "place3_rate": 26.1
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2014,
+        "win_rate": 2.5,
+        "place2_rate": 10.4,
+        "place3_rate": 26.1
+      }
+    },
+    {
+      "venue": "徳山",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 5198,
+          "win_rate": 61.6,
+          "place2_rate": 78.0,
+          "place3_rate": 85.3
+        },
+        {
+          "course": 2,
+          "starts": 5198,
+          "win_rate": 12.6,
+          "place2_rate": 40.7,
+          "place3_rate": 59.2
+        },
+        {
+          "course": 3,
+          "starts": 5188,
+          "win_rate": 11.5,
+          "place2_rate": 33.6,
+          "place3_rate": 53.6
+        },
+        {
+          "course": 4,
+          "starts": 5188,
+          "win_rate": 8.8,
+          "place2_rate": 24.8,
+          "place3_rate": 47.1
+        },
+        {
+          "course": 5,
+          "starts": 5180,
+          "win_rate": 4.6,
+          "place2_rate": 17.0,
+          "place3_rate": 35.5
+        },
+        {
+          "course": 6,
+          "starts": 5148,
+          "win_rate": 1.2,
+          "place2_rate": 6.4,
+          "place3_rate": 20.5
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 5148,
+        "win_rate": 1.2,
+        "place2_rate": 6.4,
+        "place3_rate": 20.5
+      }
+    },
+    {
+      "venue": "戸田",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2217,
+          "win_rate": 42.5,
+          "place2_rate": 61.4,
+          "place3_rate": 72.7
+        },
+        {
+          "course": 2,
+          "starts": 2207,
+          "win_rate": 17.5,
+          "place2_rate": 41.2,
+          "place3_rate": 57.7
+        },
+        {
+          "course": 3,
+          "starts": 2207,
+          "win_rate": 16.6,
+          "place2_rate": 36.2,
+          "place3_rate": 54.2
+        },
+        {
+          "course": 4,
+          "starts": 2212,
+          "win_rate": 13.7,
+          "place2_rate": 30.2,
+          "place3_rate": 50.1
+        },
+        {
+          "course": 5,
+          "starts": 2202,
+          "win_rate": 7.9,
+          "place2_rate": 22.3,
+          "place3_rate": 42.6
+        },
+        {
+          "course": 6,
+          "starts": 2185,
+          "win_rate": 2.2,
+          "place2_rate": 9.7,
+          "place3_rate": 24.3
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2185,
+        "win_rate": 2.2,
+        "place2_rate": 9.7,
+        "place3_rate": 24.3
+      }
+    },
+    {
+      "venue": "桐生",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2406,
+          "win_rate": 50.7,
+          "place2_rate": 68.7,
+          "place3_rate": 78.6
+        },
+        {
+          "course": 2,
+          "starts": 2400,
+          "win_rate": 12.1,
+          "place2_rate": 36.4,
+          "place3_rate": 55.5
+        },
+        {
+          "course": 3,
+          "starts": 2392,
+          "win_rate": 13.4,
+          "place2_rate": 36.7,
+          "place3_rate": 55.2
+        },
+        {
+          "course": 4,
+          "starts": 2396,
+          "win_rate": 12.3,
+          "place2_rate": 26.7,
+          "place3_rate": 46.9
+        },
+        {
+          "course": 5,
+          "starts": 2395,
+          "win_rate": 9.3,
+          "place2_rate": 23.4,
+          "place3_rate": 42.6
+        },
+        {
+          "course": 6,
+          "starts": 2371,
+          "win_rate": 2.6,
+          "place2_rate": 9.0,
+          "place3_rate": 22.8
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2371,
+        "win_rate": 2.6,
+        "place2_rate": 9.0,
+        "place3_rate": 22.8
+      }
+    },
+    {
+      "venue": "江戸川",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4128,
+          "win_rate": 47.0,
+          "place2_rate": 67.1,
+          "place3_rate": 78.3
+        },
+        {
+          "course": 2,
+          "starts": 4124,
+          "win_rate": 17.1,
+          "place2_rate": 40.8,
+          "place3_rate": 59.7
+        },
+        {
+          "course": 3,
+          "starts": 4116,
+          "win_rate": 14.7,
+          "place2_rate": 35.3,
+          "place3_rate": 53.9
+        },
+        {
+          "course": 4,
+          "starts": 4128,
+          "win_rate": 12.0,
+          "place2_rate": 26.7,
+          "place3_rate": 44.8
+        },
+        {
+          "course": 5,
+          "starts": 4114,
+          "win_rate": 6.8,
+          "place2_rate": 20.5,
+          "place3_rate": 38.7
+        },
+        {
+          "course": 6,
+          "starts": 4028,
+          "win_rate": 3.0,
+          "place2_rate": 11.0,
+          "place3_rate": 26.9
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4028,
+        "win_rate": 3.0,
+        "place2_rate": 11.0,
+        "place3_rate": 26.9
+      }
+    },
+    {
+      "venue": "津",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2301,
+          "win_rate": 57.6,
+          "place2_rate": 73.8,
+          "place3_rate": 82.4
+        },
+        {
+          "course": 2,
+          "starts": 2299,
+          "win_rate": 13.7,
+          "place2_rate": 40.8,
+          "place3_rate": 59.2
+        },
+        {
+          "course": 3,
+          "starts": 2300,
+          "win_rate": 11.5,
+          "place2_rate": 33.0,
+          "place3_rate": 53.4
+        },
+        {
+          "course": 4,
+          "starts": 2300,
+          "win_rate": 9.6,
+          "place2_rate": 26.5,
+          "place3_rate": 47.2
+        },
+        {
+          "course": 5,
+          "starts": 2298,
+          "win_rate": 6.1,
+          "place2_rate": 18.2,
+          "place3_rate": 36.9
+        },
+        {
+          "course": 6,
+          "starts": 2276,
+          "win_rate": 1.7,
+          "place2_rate": 8.3,
+          "place3_rate": 21.8
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2276,
+        "win_rate": 1.7,
+        "place2_rate": 8.3,
+        "place3_rate": 21.8
+      }
+    },
+    {
+      "venue": "浜名湖",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2439,
+          "win_rate": 54.8,
+          "place2_rate": 72.0,
+          "place3_rate": 80.4
+        },
+        {
+          "course": 2,
+          "starts": 2438,
+          "win_rate": 12.9,
+          "place2_rate": 37.7,
+          "place3_rate": 56.2
+        },
+        {
+          "course": 3,
+          "starts": 2436,
+          "win_rate": 13.5,
+          "place2_rate": 35.8,
+          "place3_rate": 56.7
+        },
+        {
+          "course": 4,
+          "starts": 2437,
+          "win_rate": 10.2,
+          "place2_rate": 25.6,
+          "place3_rate": 44.6
+        },
+        {
+          "course": 5,
+          "starts": 2436,
+          "win_rate": 6.8,
+          "place2_rate": 20.4,
+          "place3_rate": 40.4
+        },
+        {
+          "course": 6,
+          "starts": 2408,
+          "win_rate": 2.1,
+          "place2_rate": 9.1,
+          "place3_rate": 22.7
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2408,
+        "win_rate": 2.1,
+        "place2_rate": 9.1,
+        "place3_rate": 22.7
+      }
+    },
+    {
+      "venue": "福岡",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2324,
+          "win_rate": 59.4,
+          "place2_rate": 76.2,
+          "place3_rate": 84.5
+        },
+        {
+          "course": 2,
+          "starts": 2320,
+          "win_rate": 15.2,
+          "place2_rate": 42.1,
+          "place3_rate": 62.4
+        },
+        {
+          "course": 3,
+          "starts": 2319,
+          "win_rate": 13.9,
+          "place2_rate": 38.0,
+          "place3_rate": 56.7
+        },
+        {
+          "course": 4,
+          "starts": 2318,
+          "win_rate": 7.4,
+          "place2_rate": 23.2,
+          "place3_rate": 46.5
+        },
+        {
+          "course": 5,
+          "starts": 2314,
+          "win_rate": 3.5,
+          "place2_rate": 16.6,
+          "place3_rate": 35.9
+        },
+        {
+          "course": 6,
+          "starts": 2298,
+          "win_rate": 0.8,
+          "place2_rate": 4.4,
+          "place3_rate": 15.0
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2298,
+        "win_rate": 0.8,
+        "place2_rate": 4.4,
+        "place3_rate": 15.0
+      }
+    },
+    {
+      "venue": "芦屋",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2286,
+          "win_rate": 61.2,
+          "place2_rate": 76.6,
+          "place3_rate": 84.3
+        },
+        {
+          "course": 2,
+          "starts": 2286,
+          "win_rate": 9.7,
+          "place2_rate": 33.9,
+          "place3_rate": 54.3
+        },
+        {
+          "course": 3,
+          "starts": 2273,
+          "win_rate": 10.9,
+          "place2_rate": 34.1,
+          "place3_rate": 53.3
+        },
+        {
+          "course": 4,
+          "starts": 2281,
+          "win_rate": 10.0,
+          "place2_rate": 28.1,
+          "place3_rate": 48.0
+        },
+        {
+          "course": 5,
+          "starts": 2282,
+          "win_rate": 6.8,
+          "place2_rate": 20.7,
+          "place3_rate": 39.9
+        },
+        {
+          "course": 6,
+          "starts": 2261,
+          "win_rate": 1.8,
+          "place2_rate": 7.5,
+          "place3_rate": 21.6
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2261,
+        "win_rate": 1.8,
+        "place2_rate": 7.5,
+        "place3_rate": 21.6
+      }
+    },
+    {
+      "venue": "若松",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4716,
+          "win_rate": 59.3,
+          "place2_rate": 76.1,
+          "place3_rate": 85.0
+        },
+        {
+          "course": 2,
+          "starts": 4706,
+          "win_rate": 13.5,
+          "place2_rate": 38.6,
+          "place3_rate": 58.4
+        },
+        {
+          "course": 3,
+          "starts": 4722,
+          "win_rate": 11.1,
+          "place2_rate": 35.1,
+          "place3_rate": 56.2
+        },
+        {
+          "course": 4,
+          "starts": 4708,
+          "win_rate": 9.9,
+          "place2_rate": 27.9,
+          "place3_rate": 46.6
+        },
+        {
+          "course": 5,
+          "starts": 4710,
+          "win_rate": 4.8,
+          "place2_rate": 15.3,
+          "place3_rate": 33.5
+        },
+        {
+          "course": 6,
+          "starts": 4670,
+          "win_rate": 1.7,
+          "place2_rate": 7.6,
+          "place3_rate": 21.6
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4670,
+        "win_rate": 1.7,
+        "place2_rate": 7.6,
+        "place3_rate": 21.6
+      }
+    },
+    {
+      "venue": "蒲郡",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2470,
+          "win_rate": 57.5,
+          "place2_rate": 73.2,
+          "place3_rate": 82.3
+        },
+        {
+          "course": 2,
+          "starts": 2464,
+          "win_rate": 11.6,
+          "place2_rate": 37.1,
+          "place3_rate": 55.9
+        },
+        {
+          "course": 3,
+          "starts": 2458,
+          "win_rate": 11.5,
+          "place2_rate": 34.2,
+          "place3_rate": 55.9
+        },
+        {
+          "course": 4,
+          "starts": 2466,
+          "win_rate": 11.0,
+          "place2_rate": 28.5,
+          "place3_rate": 48.5
+        },
+        {
+          "course": 5,
+          "starts": 2456,
+          "win_rate": 6.4,
+          "place2_rate": 19.9,
+          "place3_rate": 38.6
+        },
+        {
+          "course": 6,
+          "starts": 2434,
+          "win_rate": 2.2,
+          "place2_rate": 7.7,
+          "place3_rate": 19.8
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2434,
+        "win_rate": 2.2,
+        "place2_rate": 7.7,
+        "place3_rate": 19.8
+      }
+    },
+    {
+      "venue": "鳴門",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2129,
+          "win_rate": 49.0,
+          "place2_rate": 67.1,
+          "place3_rate": 76.7
+        },
+        {
+          "course": 2,
+          "starts": 2126,
+          "win_rate": 14.4,
+          "place2_rate": 38.5,
+          "place3_rate": 57.6
+        },
+        {
+          "course": 3,
+          "starts": 2127,
+          "win_rate": 15.7,
+          "place2_rate": 36.2,
+          "place3_rate": 54.4
+        },
+        {
+          "course": 4,
+          "starts": 2130,
+          "win_rate": 11.6,
+          "place2_rate": 29.8,
+          "place3_rate": 49.2
+        },
+        {
+          "course": 5,
+          "starts": 2124,
+          "win_rate": 7.7,
+          "place2_rate": 19.8,
+          "place3_rate": 38.6
+        },
+        {
+          "course": 6,
+          "starts": 2094,
+          "win_rate": 2.1,
+          "place2_rate": 9.6,
+          "place3_rate": 25.2
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2094,
+        "win_rate": 2.1,
+        "place2_rate": 9.6,
+        "place3_rate": 25.2
+      }
+    }
+  ],
+  "course6_ranking": [
+    {
+      "venue": "江戸川",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4128,
+          "win_rate": 47.0,
+          "place2_rate": 67.1,
+          "place3_rate": 78.3
+        },
+        {
+          "course": 2,
+          "starts": 4124,
+          "win_rate": 17.1,
+          "place2_rate": 40.8,
+          "place3_rate": 59.7
+        },
+        {
+          "course": 3,
+          "starts": 4116,
+          "win_rate": 14.7,
+          "place2_rate": 35.3,
+          "place3_rate": 53.9
+        },
+        {
+          "course": 4,
+          "starts": 4128,
+          "win_rate": 12.0,
+          "place2_rate": 26.7,
+          "place3_rate": 44.8
+        },
+        {
+          "course": 5,
+          "starts": 4114,
+          "win_rate": 6.8,
+          "place2_rate": 20.5,
+          "place3_rate": 38.7
+        },
+        {
+          "course": 6,
+          "starts": 4028,
+          "win_rate": 3.0,
+          "place2_rate": 11.0,
+          "place3_rate": 26.9
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4028,
+        "win_rate": 3.0,
+        "place2_rate": 11.0,
+        "place3_rate": 26.9
+      }
+    },
+    {
+      "venue": "平和島",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2037,
+          "win_rate": 44.5,
+          "place2_rate": 63.3,
+          "place3_rate": 74.8
+        },
+        {
+          "course": 2,
+          "starts": 2032,
+          "win_rate": 16.3,
+          "place2_rate": 40.2,
+          "place3_rate": 60.0
+        },
+        {
+          "course": 3,
+          "starts": 2032,
+          "win_rate": 16.9,
+          "place2_rate": 36.0,
+          "place3_rate": 55.0
+        },
+        {
+          "course": 4,
+          "starts": 2036,
+          "win_rate": 12.3,
+          "place2_rate": 29.3,
+          "place3_rate": 47.4
+        },
+        {
+          "course": 5,
+          "starts": 2030,
+          "win_rate": 7.9,
+          "place2_rate": 21.8,
+          "place3_rate": 38.2
+        },
+        {
+          "course": 6,
+          "starts": 2014,
+          "win_rate": 2.5,
+          "place2_rate": 10.4,
+          "place3_rate": 26.1
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2014,
+        "win_rate": 2.5,
+        "place2_rate": 10.4,
+        "place3_rate": 26.1
+      }
+    },
+    {
+      "venue": "丸亀",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4598,
+          "win_rate": 55.3,
+          "place2_rate": 74.3,
+          "place3_rate": 82.0
+        },
+        {
+          "course": 2,
+          "starts": 4598,
+          "win_rate": 13.1,
+          "place2_rate": 39.2,
+          "place3_rate": 56.9
+        },
+        {
+          "course": 3,
+          "starts": 4598,
+          "win_rate": 12.7,
+          "place2_rate": 32.6,
+          "place3_rate": 51.6
+        },
+        {
+          "course": 4,
+          "starts": 4602,
+          "win_rate": 10.1,
+          "place2_rate": 27.2,
+          "place3_rate": 49.4
+        },
+        {
+          "course": 5,
+          "starts": 4586,
+          "win_rate": 6.9,
+          "place2_rate": 18.8,
+          "place3_rate": 36.2
+        },
+        {
+          "course": 6,
+          "starts": 4548,
+          "win_rate": 2.2,
+          "place2_rate": 8.8,
+          "place3_rate": 25.2
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4548,
+        "win_rate": 2.2,
+        "place2_rate": 8.8,
+        "place3_rate": 25.2
+      }
+    },
+    {
+      "venue": "鳴門",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2129,
+          "win_rate": 49.0,
+          "place2_rate": 67.1,
+          "place3_rate": 76.7
+        },
+        {
+          "course": 2,
+          "starts": 2126,
+          "win_rate": 14.4,
+          "place2_rate": 38.5,
+          "place3_rate": 57.6
+        },
+        {
+          "course": 3,
+          "starts": 2127,
+          "win_rate": 15.7,
+          "place2_rate": 36.2,
+          "place3_rate": 54.4
+        },
+        {
+          "course": 4,
+          "starts": 2130,
+          "win_rate": 11.6,
+          "place2_rate": 29.8,
+          "place3_rate": 49.2
+        },
+        {
+          "course": 5,
+          "starts": 2124,
+          "win_rate": 7.7,
+          "place2_rate": 19.8,
+          "place3_rate": 38.6
+        },
+        {
+          "course": 6,
+          "starts": 2094,
+          "win_rate": 2.1,
+          "place2_rate": 9.6,
+          "place3_rate": 25.2
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2094,
+        "win_rate": 2.1,
+        "place2_rate": 9.6,
+        "place3_rate": 25.2
+      }
+    },
+    {
+      "venue": "戸田",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2217,
+          "win_rate": 42.5,
+          "place2_rate": 61.4,
+          "place3_rate": 72.7
+        },
+        {
+          "course": 2,
+          "starts": 2207,
+          "win_rate": 17.5,
+          "place2_rate": 41.2,
+          "place3_rate": 57.7
+        },
+        {
+          "course": 3,
+          "starts": 2207,
+          "win_rate": 16.6,
+          "place2_rate": 36.2,
+          "place3_rate": 54.2
+        },
+        {
+          "course": 4,
+          "starts": 2212,
+          "win_rate": 13.7,
+          "place2_rate": 30.2,
+          "place3_rate": 50.1
+        },
+        {
+          "course": 5,
+          "starts": 2202,
+          "win_rate": 7.9,
+          "place2_rate": 22.3,
+          "place3_rate": 42.6
+        },
+        {
+          "course": 6,
+          "starts": 2185,
+          "win_rate": 2.2,
+          "place2_rate": 9.7,
+          "place3_rate": 24.3
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2185,
+        "win_rate": 2.2,
+        "place2_rate": 9.7,
+        "place3_rate": 24.3
+      }
+    },
+    {
+      "venue": "児島",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2409,
+          "win_rate": 54.1,
+          "place2_rate": 71.5,
+          "place3_rate": 80.7
+        },
+        {
+          "course": 2,
+          "starts": 2405,
+          "win_rate": 12.6,
+          "place2_rate": 36.5,
+          "place3_rate": 54.8
+        },
+        {
+          "course": 3,
+          "starts": 2406,
+          "win_rate": 14.0,
+          "place2_rate": 33.5,
+          "place3_rate": 51.9
+        },
+        {
+          "course": 4,
+          "starts": 2405,
+          "win_rate": 10.8,
+          "place2_rate": 29.6,
+          "place3_rate": 49.7
+        },
+        {
+          "course": 5,
+          "starts": 2408,
+          "win_rate": 6.5,
+          "place2_rate": 19.8,
+          "place3_rate": 39.4
+        },
+        {
+          "course": 6,
+          "starts": 2381,
+          "win_rate": 2.2,
+          "place2_rate": 9.5,
+          "place3_rate": 24.2
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2381,
+        "win_rate": 2.2,
+        "place2_rate": 9.5,
+        "place3_rate": 24.2
+      }
+    },
+    {
+      "venue": "多摩川",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4588,
+          "win_rate": 54.4,
+          "place2_rate": 70.1,
+          "place3_rate": 80.3
+        },
+        {
+          "course": 2,
+          "starts": 4590,
+          "win_rate": 13.5,
+          "place2_rate": 37.7,
+          "place3_rate": 56.6
+        },
+        {
+          "course": 3,
+          "starts": 4570,
+          "win_rate": 12.7,
+          "place2_rate": 35.0,
+          "place3_rate": 55.3
+        },
+        {
+          "course": 4,
+          "starts": 4590,
+          "win_rate": 11.1,
+          "place2_rate": 28.3,
+          "place3_rate": 47.5
+        },
+        {
+          "course": 5,
+          "starts": 4570,
+          "win_rate": 6.2,
+          "place2_rate": 20.1,
+          "place3_rate": 37.5
+        },
+        {
+          "course": 6,
+          "starts": 4544,
+          "win_rate": 2.5,
+          "place2_rate": 9.5,
+          "place3_rate": 23.9
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4544,
+        "win_rate": 2.5,
+        "place2_rate": 9.5,
+        "place3_rate": 23.9
+      }
+    },
+    {
+      "venue": "びわこ",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4356,
+          "win_rate": 54.2,
+          "place2_rate": 72.3,
+          "place3_rate": 80.5
+        },
+        {
+          "course": 2,
+          "starts": 4354,
+          "win_rate": 13.6,
+          "place2_rate": 38.9,
+          "place3_rate": 57.7
+        },
+        {
+          "course": 3,
+          "starts": 4348,
+          "win_rate": 14.0,
+          "place2_rate": 36.2,
+          "place3_rate": 55.7
+        },
+        {
+          "course": 4,
+          "starts": 4348,
+          "win_rate": 10.0,
+          "place2_rate": 25.7,
+          "place3_rate": 45.6
+        },
+        {
+          "course": 5,
+          "starts": 4348,
+          "win_rate": 6.5,
+          "place2_rate": 19.5,
+          "place3_rate": 38.5
+        },
+        {
+          "course": 6,
+          "starts": 4294,
+          "win_rate": 1.8,
+          "place2_rate": 8.0,
+          "place3_rate": 22.8
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4294,
+        "win_rate": 1.8,
+        "place2_rate": 8.0,
+        "place3_rate": 22.8
+      }
+    },
+    {
+      "venue": "桐生",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2406,
+          "win_rate": 50.7,
+          "place2_rate": 68.7,
+          "place3_rate": 78.6
+        },
+        {
+          "course": 2,
+          "starts": 2400,
+          "win_rate": 12.1,
+          "place2_rate": 36.4,
+          "place3_rate": 55.5
+        },
+        {
+          "course": 3,
+          "starts": 2392,
+          "win_rate": 13.4,
+          "place2_rate": 36.7,
+          "place3_rate": 55.2
+        },
+        {
+          "course": 4,
+          "starts": 2396,
+          "win_rate": 12.3,
+          "place2_rate": 26.7,
+          "place3_rate": 46.9
+        },
+        {
+          "course": 5,
+          "starts": 2395,
+          "win_rate": 9.3,
+          "place2_rate": 23.4,
+          "place3_rate": 42.6
+        },
+        {
+          "course": 6,
+          "starts": 2371,
+          "win_rate": 2.6,
+          "place2_rate": 9.0,
+          "place3_rate": 22.8
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2371,
+        "win_rate": 2.6,
+        "place2_rate": 9.0,
+        "place3_rate": 22.8
+      }
+    },
+    {
+      "venue": "浜名湖",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2439,
+          "win_rate": 54.8,
+          "place2_rate": 72.0,
+          "place3_rate": 80.4
+        },
+        {
+          "course": 2,
+          "starts": 2438,
+          "win_rate": 12.9,
+          "place2_rate": 37.7,
+          "place3_rate": 56.2
+        },
+        {
+          "course": 3,
+          "starts": 2436,
+          "win_rate": 13.5,
+          "place2_rate": 35.8,
+          "place3_rate": 56.7
+        },
+        {
+          "course": 4,
+          "starts": 2437,
+          "win_rate": 10.2,
+          "place2_rate": 25.6,
+          "place3_rate": 44.6
+        },
+        {
+          "course": 5,
+          "starts": 2436,
+          "win_rate": 6.8,
+          "place2_rate": 20.4,
+          "place3_rate": 40.4
+        },
+        {
+          "course": 6,
+          "starts": 2408,
+          "win_rate": 2.1,
+          "place2_rate": 9.1,
+          "place3_rate": 22.7
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2408,
+        "win_rate": 2.1,
+        "place2_rate": 9.1,
+        "place3_rate": 22.7
+      }
+    },
+    {
+      "venue": "常滑",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 5092,
+          "win_rate": 58.3,
+          "place2_rate": 73.6,
+          "place3_rate": 82.1
+        },
+        {
+          "course": 2,
+          "starts": 5090,
+          "win_rate": 13.3,
+          "place2_rate": 37.7,
+          "place3_rate": 56.0
+        },
+        {
+          "course": 3,
+          "starts": 5084,
+          "win_rate": 10.4,
+          "place2_rate": 33.3,
+          "place3_rate": 53.8
+        },
+        {
+          "course": 4,
+          "starts": 5088,
+          "win_rate": 10.3,
+          "place2_rate": 27.7,
+          "place3_rate": 48.2
+        },
+        {
+          "course": 5,
+          "starts": 5080,
+          "win_rate": 5.9,
+          "place2_rate": 19.9,
+          "place3_rate": 38.7
+        },
+        {
+          "course": 6,
+          "starts": 5038,
+          "win_rate": 2.1,
+          "place2_rate": 8.4,
+          "place3_rate": 22.3
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 5038,
+        "win_rate": 2.1,
+        "place2_rate": 8.4,
+        "place3_rate": 22.3
+      }
+    },
+    {
+      "venue": "津",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2301,
+          "win_rate": 57.6,
+          "place2_rate": 73.8,
+          "place3_rate": 82.4
+        },
+        {
+          "course": 2,
+          "starts": 2299,
+          "win_rate": 13.7,
+          "place2_rate": 40.8,
+          "place3_rate": 59.2
+        },
+        {
+          "course": 3,
+          "starts": 2300,
+          "win_rate": 11.5,
+          "place2_rate": 33.0,
+          "place3_rate": 53.4
+        },
+        {
+          "course": 4,
+          "starts": 2300,
+          "win_rate": 9.6,
+          "place2_rate": 26.5,
+          "place3_rate": 47.2
+        },
+        {
+          "course": 5,
+          "starts": 2298,
+          "win_rate": 6.1,
+          "place2_rate": 18.2,
+          "place3_rate": 36.9
+        },
+        {
+          "course": 6,
+          "starts": 2276,
+          "win_rate": 1.7,
+          "place2_rate": 8.3,
+          "place3_rate": 21.8
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2276,
+        "win_rate": 1.7,
+        "place2_rate": 8.3,
+        "place3_rate": 21.8
+      }
+    },
+    {
+      "venue": "住之江",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4536,
+          "win_rate": 57.5,
+          "place2_rate": 74.2,
+          "place3_rate": 83.5
+        },
+        {
+          "course": 2,
+          "starts": 4524,
+          "win_rate": 13.9,
+          "place2_rate": 40.1,
+          "place3_rate": 58.2
+        },
+        {
+          "course": 3,
+          "starts": 4526,
+          "win_rate": 11.4,
+          "place2_rate": 33.2,
+          "place3_rate": 56.0
+        },
+        {
+          "course": 4,
+          "starts": 4534,
+          "win_rate": 10.3,
+          "place2_rate": 27.3,
+          "place3_rate": 46.1
+        },
+        {
+          "course": 5,
+          "starts": 4522,
+          "win_rate": 5.3,
+          "place2_rate": 17.6,
+          "place3_rate": 35.1
+        },
+        {
+          "course": 6,
+          "starts": 4492,
+          "win_rate": 1.7,
+          "place2_rate": 7.8,
+          "place3_rate": 21.6
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4492,
+        "win_rate": 1.7,
+        "place2_rate": 7.8,
+        "place3_rate": 21.6
+      }
+    },
+    {
+      "venue": "芦屋",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2286,
+          "win_rate": 61.2,
+          "place2_rate": 76.6,
+          "place3_rate": 84.3
+        },
+        {
+          "course": 2,
+          "starts": 2286,
+          "win_rate": 9.7,
+          "place2_rate": 33.9,
+          "place3_rate": 54.3
+        },
+        {
+          "course": 3,
+          "starts": 2273,
+          "win_rate": 10.9,
+          "place2_rate": 34.1,
+          "place3_rate": 53.3
+        },
+        {
+          "course": 4,
+          "starts": 2281,
+          "win_rate": 10.0,
+          "place2_rate": 28.1,
+          "place3_rate": 48.0
+        },
+        {
+          "course": 5,
+          "starts": 2282,
+          "win_rate": 6.8,
+          "place2_rate": 20.7,
+          "place3_rate": 39.9
+        },
+        {
+          "course": 6,
+          "starts": 2261,
+          "win_rate": 1.8,
+          "place2_rate": 7.5,
+          "place3_rate": 21.6
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2261,
+        "win_rate": 1.8,
+        "place2_rate": 7.5,
+        "place3_rate": 21.6
+      }
+    },
+    {
+      "venue": "若松",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4716,
+          "win_rate": 59.3,
+          "place2_rate": 76.1,
+          "place3_rate": 85.0
+        },
+        {
+          "course": 2,
+          "starts": 4706,
+          "win_rate": 13.5,
+          "place2_rate": 38.6,
+          "place3_rate": 58.4
+        },
+        {
+          "course": 3,
+          "starts": 4722,
+          "win_rate": 11.1,
+          "place2_rate": 35.1,
+          "place3_rate": 56.2
+        },
+        {
+          "course": 4,
+          "starts": 4708,
+          "win_rate": 9.9,
+          "place2_rate": 27.9,
+          "place3_rate": 46.6
+        },
+        {
+          "course": 5,
+          "starts": 4710,
+          "win_rate": 4.8,
+          "place2_rate": 15.3,
+          "place3_rate": 33.5
+        },
+        {
+          "course": 6,
+          "starts": 4670,
+          "win_rate": 1.7,
+          "place2_rate": 7.6,
+          "place3_rate": 21.6
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4670,
+        "win_rate": 1.7,
+        "place2_rate": 7.6,
+        "place3_rate": 21.6
+      }
+    },
+    {
+      "venue": "大村",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2354,
+          "win_rate": 61.0,
+          "place2_rate": 78.7,
+          "place3_rate": 85.3
+        },
+        {
+          "course": 2,
+          "starts": 2347,
+          "win_rate": 12.4,
+          "place2_rate": 39.6,
+          "place3_rate": 58.6
+        },
+        {
+          "course": 3,
+          "starts": 2342,
+          "win_rate": 10.7,
+          "place2_rate": 34.2,
+          "place3_rate": 56.0
+        },
+        {
+          "course": 4,
+          "starts": 2350,
+          "win_rate": 9.0,
+          "place2_rate": 23.6,
+          "place3_rate": 43.6
+        },
+        {
+          "course": 5,
+          "starts": 2347,
+          "win_rate": 5.5,
+          "place2_rate": 17.2,
+          "place3_rate": 35.5
+        },
+        {
+          "course": 6,
+          "starts": 2333,
+          "win_rate": 1.4,
+          "place2_rate": 6.9,
+          "place3_rate": 21.5
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2333,
+        "win_rate": 1.4,
+        "place2_rate": 6.9,
+        "place3_rate": 21.5
+      }
+    },
+    {
+      "venue": "三国",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4532,
+          "win_rate": 52.2,
+          "place2_rate": 70.1,
+          "place3_rate": 78.8
+        },
+        {
+          "course": 2,
+          "starts": 4534,
+          "win_rate": 14.8,
+          "place2_rate": 40.0,
+          "place3_rate": 58.9
+        },
+        {
+          "course": 3,
+          "starts": 4534,
+          "win_rate": 14.9,
+          "place2_rate": 36.7,
+          "place3_rate": 55.3
+        },
+        {
+          "course": 4,
+          "starts": 4526,
+          "win_rate": 10.6,
+          "place2_rate": 28.0,
+          "place3_rate": 49.3
+        },
+        {
+          "course": 5,
+          "starts": 4522,
+          "win_rate": 6.0,
+          "place2_rate": 18.1,
+          "place3_rate": 37.5
+        },
+        {
+          "course": 6,
+          "starts": 4498,
+          "win_rate": 1.8,
+          "place2_rate": 7.7,
+          "place3_rate": 21.3
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4498,
+        "win_rate": 1.8,
+        "place2_rate": 7.7,
+        "place3_rate": 21.3
+      }
+    },
+    {
+      "venue": "尼崎",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2521,
+          "win_rate": 60.1,
+          "place2_rate": 76.0,
+          "place3_rate": 84.5
+        },
+        {
+          "course": 2,
+          "starts": 2514,
+          "win_rate": 12.3,
+          "place2_rate": 37.4,
+          "place3_rate": 55.1
+        },
+        {
+          "course": 3,
+          "starts": 2513,
+          "win_rate": 11.5,
+          "place2_rate": 32.5,
+          "place3_rate": 53.6
+        },
+        {
+          "course": 4,
+          "starts": 2515,
+          "win_rate": 9.9,
+          "place2_rate": 28.2,
+          "place3_rate": 49.4
+        },
+        {
+          "course": 5,
+          "starts": 2509,
+          "win_rate": 5.0,
+          "place2_rate": 19.2,
+          "place3_rate": 37.6
+        },
+        {
+          "course": 6,
+          "starts": 2484,
+          "win_rate": 1.4,
+          "place2_rate": 7.2,
+          "place3_rate": 20.9
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2484,
+        "win_rate": 1.4,
+        "place2_rate": 7.2,
+        "place3_rate": 20.9
+      }
+    },
+    {
+      "venue": "徳山",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 5198,
+          "win_rate": 61.6,
+          "place2_rate": 78.0,
+          "place3_rate": 85.3
+        },
+        {
+          "course": 2,
+          "starts": 5198,
+          "win_rate": 12.6,
+          "place2_rate": 40.7,
+          "place3_rate": 59.2
+        },
+        {
+          "course": 3,
+          "starts": 5188,
+          "win_rate": 11.5,
+          "place2_rate": 33.6,
+          "place3_rate": 53.6
+        },
+        {
+          "course": 4,
+          "starts": 5188,
+          "win_rate": 8.8,
+          "place2_rate": 24.8,
+          "place3_rate": 47.1
+        },
+        {
+          "course": 5,
+          "starts": 5180,
+          "win_rate": 4.6,
+          "place2_rate": 17.0,
+          "place3_rate": 35.5
+        },
+        {
+          "course": 6,
+          "starts": 5148,
+          "win_rate": 1.2,
+          "place2_rate": 6.4,
+          "place3_rate": 20.5
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 5148,
+        "win_rate": 1.2,
+        "place2_rate": 6.4,
+        "place3_rate": 20.5
+      }
+    },
+    {
+      "venue": "蒲郡",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2470,
+          "win_rate": 57.5,
+          "place2_rate": 73.2,
+          "place3_rate": 82.3
+        },
+        {
+          "course": 2,
+          "starts": 2464,
+          "win_rate": 11.6,
+          "place2_rate": 37.1,
+          "place3_rate": 55.9
+        },
+        {
+          "course": 3,
+          "starts": 2458,
+          "win_rate": 11.5,
+          "place2_rate": 34.2,
+          "place3_rate": 55.9
+        },
+        {
+          "course": 4,
+          "starts": 2466,
+          "win_rate": 11.0,
+          "place2_rate": 28.5,
+          "place3_rate": 48.5
+        },
+        {
+          "course": 5,
+          "starts": 2456,
+          "win_rate": 6.4,
+          "place2_rate": 19.9,
+          "place3_rate": 38.6
+        },
+        {
+          "course": 6,
+          "starts": 2434,
+          "win_rate": 2.2,
+          "place2_rate": 7.7,
+          "place3_rate": 19.8
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2434,
+        "win_rate": 2.2,
+        "place2_rate": 7.7,
+        "place3_rate": 19.8
+      }
+    },
+    {
+      "venue": "宮島",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4662,
+          "win_rate": 57.4,
+          "place2_rate": 73.7,
+          "place3_rate": 82.1
+        },
+        {
+          "course": 2,
+          "starts": 4652,
+          "win_rate": 12.0,
+          "place2_rate": 37.4,
+          "place3_rate": 57.6
+        },
+        {
+          "course": 3,
+          "starts": 4650,
+          "win_rate": 13.7,
+          "place2_rate": 36.1,
+          "place3_rate": 57.5
+        },
+        {
+          "course": 4,
+          "starts": 4658,
+          "win_rate": 10.1,
+          "place2_rate": 27.0,
+          "place3_rate": 46.6
+        },
+        {
+          "course": 5,
+          "starts": 4646,
+          "win_rate": 5.6,
+          "place2_rate": 18.9,
+          "place3_rate": 37.5
+        },
+        {
+          "course": 6,
+          "starts": 4590,
+          "win_rate": 1.5,
+          "place2_rate": 7.5,
+          "place3_rate": 19.7
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4590,
+        "win_rate": 1.5,
+        "place2_rate": 7.5,
+        "place3_rate": 19.7
+      }
+    },
+    {
+      "venue": "下関",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4522,
+          "win_rate": 61.7,
+          "place2_rate": 79.1,
+          "place3_rate": 87.0
+        },
+        {
+          "course": 2,
+          "starts": 4514,
+          "win_rate": 10.7,
+          "place2_rate": 36.6,
+          "place3_rate": 57.6
+        },
+        {
+          "course": 3,
+          "starts": 4514,
+          "win_rate": 12.1,
+          "place2_rate": 35.2,
+          "place3_rate": 55.9
+        },
+        {
+          "course": 4,
+          "starts": 4522,
+          "win_rate": 9.1,
+          "place2_rate": 25.1,
+          "place3_rate": 45.1
+        },
+        {
+          "course": 5,
+          "starts": 4516,
+          "win_rate": 4.9,
+          "place2_rate": 17.4,
+          "place3_rate": 36.3
+        },
+        {
+          "course": 6,
+          "starts": 4474,
+          "win_rate": 1.8,
+          "place2_rate": 7.2,
+          "place3_rate": 19.0
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4474,
+        "win_rate": 1.8,
+        "place2_rate": 7.2,
+        "place3_rate": 19.0
+      }
+    },
+    {
+      "venue": "唐津",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 4336,
+          "win_rate": 57.6,
+          "place2_rate": 75.7,
+          "place3_rate": 84.2
+        },
+        {
+          "course": 2,
+          "starts": 4334,
+          "win_rate": 13.5,
+          "place2_rate": 41.1,
+          "place3_rate": 61.0
+        },
+        {
+          "course": 3,
+          "starts": 4336,
+          "win_rate": 12.2,
+          "place2_rate": 34.8,
+          "place3_rate": 56.1
+        },
+        {
+          "course": 4,
+          "starts": 4340,
+          "win_rate": 9.5,
+          "place2_rate": 24.9,
+          "place3_rate": 46.2
+        },
+        {
+          "course": 5,
+          "starts": 4324,
+          "win_rate": 6.0,
+          "place2_rate": 17.8,
+          "place3_rate": 36.8
+        },
+        {
+          "course": 6,
+          "starts": 4298,
+          "win_rate": 1.7,
+          "place2_rate": 6.7,
+          "place3_rate": 17.3
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 4298,
+        "win_rate": 1.7,
+        "place2_rate": 6.7,
+        "place3_rate": 17.3
+      }
+    },
+    {
+      "venue": "福岡",
+      "courses": [
+        {
+          "course": 1,
+          "starts": 2324,
+          "win_rate": 59.4,
+          "place2_rate": 76.2,
+          "place3_rate": 84.5
+        },
+        {
+          "course": 2,
+          "starts": 2320,
+          "win_rate": 15.2,
+          "place2_rate": 42.1,
+          "place3_rate": 62.4
+        },
+        {
+          "course": 3,
+          "starts": 2319,
+          "win_rate": 13.9,
+          "place2_rate": 38.0,
+          "place3_rate": 56.7
+        },
+        {
+          "course": 4,
+          "starts": 2318,
+          "win_rate": 7.4,
+          "place2_rate": 23.2,
+          "place3_rate": 46.5
+        },
+        {
+          "course": 5,
+          "starts": 2314,
+          "win_rate": 3.5,
+          "place2_rate": 16.6,
+          "place3_rate": 35.9
+        },
+        {
+          "course": 6,
+          "starts": 2298,
+          "win_rate": 0.8,
+          "place2_rate": 4.4,
+          "place3_rate": 15.0
+        }
+      ],
+      "course6": {
+        "course": 6,
+        "starts": 2298,
+        "win_rate": 0.8,
+        "place2_rate": 4.4,
+        "place3_rate": 15.0
+      }
+    }
+  ],
+  "errors": [],
+  "data_notes": [
+    "集計対象はコース別統計です。",
+    "6コース成績と6号艇の個別成績は異なります。",
+    "3着以内率はplace3_rateを使用しています。",
+    "加重平均は出走数を基準にしています。",
+    "実際のレース別着順データは別途必要です。"
+  ],
+  "credit": {
+    "name": "艇愛ボートレースDB",
+    "url": "https://boatrace-db.jp/"
+  }
 }
