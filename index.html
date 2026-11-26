@@ -4,67 +4,343 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#102b46">
-<title>BOAT RACE AI ANALYZER</title>
+<meta name="theme-color" content="#101827">
+<title>ボートレース AI分析</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#f2f5f9;color:#172536;font-family:-apple-system,sans-serif}
-header{background:#102b46;color:white;padding:24px 18px}
-header h1{font-size:21px;margin:0 0 8px}
-header p{font-size:12px;color:#d0dceb;margin:0}
-main{padding:15px;max-width:650px;margin:auto}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-.card,.panel{background:white;border-radius:13px;padding:15px;border:1px solid #e1e7ef}
-.card b{font-size:21px;display:block}
-.card span{font-size:11px;color:#64748b}
-.panel{margin-top:13px}
-h2{font-size:16px;margin:0 0 13px}
-.notice{background:#fff7e6;border:1px solid #f1d69b;padding:13px;border-radius:12px;font-size:12px;line-height:1.7;margin-top:13px}
-nav{display:flex;gap:8px;margin:15px 0}
-button{flex:1;padding:12px 5px;border:1px solid #ccd6e2;border-radius:10px;background:white;font-weight:bold;color:#24364b}
-button.active{background:#102b46;color:white}
-.content{background:white;padding:17px;border-radius:13px;min-height:130px}
-small{color:#718096}
+:root {
+  --bg:#101827; --panel:#1b293b; --panel2:#22344a;
+  --text:#f3f6fb; --muted:#a9b8ca; --accent:#43c6ac;
+  --line:#34465d; --gold:#f4c75e;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.55;
+}
+header {
+  padding:22px 16px 18px;
+  background:linear-gradient(135deg,#172b42,#124b52);
+}
+header h1 { margin:0; font-size:23px; }
+header p { margin:5px 0 0; color:#c6d9e7; font-size:12px; }
+main { max-width:900px; margin:auto; padding:15px; }
+.section-title {
+  font-size:16px; font-weight:700; margin:23px 0 10px;
+}
+.cards {
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+}
+.card {
+  background:var(--panel); border:1px solid var(--line);
+  border-radius:13px; padding:13px;
+}
+.card .label { color:var(--muted); font-size:12px; }
+.card .value { font-size:23px; font-weight:750; margin-top:5px; }
+.card .sub { color:var(--muted); font-size:11px; margin-top:3px; }
+.panel {
+  background:var(--panel); border:1px solid var(--line);
+  border-radius:13px; padding:14px; margin-bottom:12px;
+}
+table { width:100%; border-collapse:collapse; font-size:12px; }
+th,td {
+  padding:10px 7px; border-bottom:1px solid var(--line);
+  text-align:right; white-space:nowrap;
+}
+th { color:var(--muted); font-weight:600; }
+th:first-child,td:first-child { text-align:left; }
+tr:last-child td { border-bottom:0; }
+.highlight { color:var(--accent); font-weight:750; }
+.rank { color:var(--gold); font-weight:750; }
+.scroll { overflow-x:auto; }
+select,button {
+  background:var(--panel2); color:var(--text);
+  border:1px solid var(--line); border-radius:9px;
+  padding:10px 12px; font-size:14px;
+}
+select { width:100%; margin:4px 0 12px; }
+.note {
+  color:var(--muted); font-size:12px;
+  background:#172538; border-radius:9px;
+  padding:11px; margin-top:12px;
+}
+.status { font-size:12px; color:var(--muted); }
+.good { color:var(--accent); }
+.warning { color:var(--gold); }
+footer {
+  text-align:center; color:var(--muted);
+  font-size:11px; padding:25px 10px;
+}
+@media(min-width:650px) {
+  .cards { grid-template-columns:repeat(4,minmax(0,1fr)); }
+  main { padding:22px; }
+}
 </style>
 </head>
 <body>
 <header>
-<h1>🚤 BOAT RACE AI ANALYZER</h1>
-<p>全国24場対応・6号艇重点分析システム</p>
+  <h1>🏁 BOAT RACE AI ANALYZER</h1>
+  <p>全国24場データ分析・6コース実績チェック</p>
 </header>
+
 <main>
-<div class="cards">
-<div class="card"><b>24</b><span>対象競艇場</span></div>
-<div class="card"><b id="races">0</b><span>分析レース</span></div>
-<div class="card"><b>6号艇</b><span>重点分析</span></div>
-</div>
-<div class="notice">
-<b>データ収集準備中</b><br>
-現在は画面の初期構築段階です。データ接続後に実績を表示します。
-</div>
-<nav>
-<button class="active" onclick="show('recommend',this)">おすすめ</button>
-<button onclick="show('analysis',this)">6号艇分析</button>
-<button onclick="show('history',this)">過去成績</button>
-</nav>
-<section class="content" id="content">
-<h2>⭐ おすすめレース</h2>
-<p>分析データがまだありません。</p>
-<small>データ取得開始後、評価順に表示します。</small>
-</section>
+  <div class="status" id="status">データを読み込んでいます...</div>
+
+  <div class="section-title">全国データ概要</div>
+  <div class="cards">
+    <div class="card">
+      <div class="label">分析対象競艇場</div>
+      <div class="value" id="venueCount">--</div>
+      <div class="sub">全国24場</div>
+    </div>
+    <div class="card">
+      <div class="label">6コース出走数</div>
+      <div class="value" id="sixStarts">--</div>
+      <div class="sub">取得済み統計</div>
+    </div>
+    <div class="card">
+      <div class="label">6コース1着率</div>
+      <div class="value" id="sixWin">--</div>
+      <div class="sub">全国加重平均</div>
+    </div>
+    <div class="card">
+      <div class="label">6コース3着以内率</div>
+      <div class="value highlight" id="sixPlace">--</div>
+      <div class="sub">全国加重平均</div>
+    </div>
+  </div>
+
+  <div class="section-title">全国コース別成績</div>
+  <div class="panel">
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>コース</th>
+            <th>出走数</th>
+            <th>1着率</th>
+            <th>2着内率</th>
+            <th>3着内率</th>
+          </tr>
+        </thead>
+        <tbody id="nationalTable">
+          <tr><td colspan="5">読み込み中...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section-title">6コース・3着以内率ランキング</div>
+  <div class="panel">
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>順位</th><th>競艇場</th><th>出走数</th><th>1着率</th><th>3着内率</th></tr>
+        </thead>
+        <tbody id="rankingTable">
+          <tr><td colspan="5">読み込み中...</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      ※過去のコース別統計によるランキングです。
+      当日のレース予想や6号艇個別の成績を示すものではありません。
+    </div>
+  </div>
+
+  <div class="section-title">競艇場別データ</div>
+  <div class="panel">
+    <label for="venueSelect" class="status">競艇場を選択</label>
+    <select id="venueSelect">
+      <option value="">データを読み込んでいます...</option>
+    </select>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>コース</th><th>出走数</th><th>1着率</th>
+            <th>2着内率</th><th>3着内率</th>
+          </tr>
+        </thead>
+        <tbody id="venueTable">
+          <tr><td colspan="5">競艇場を選択してください</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section-title">おすすめ判定について</div>
+  <div class="panel">
+    <div class="warning">現在：基礎データ分析段階</div>
+    <p class="status">
+      現在は全国のコース別統計を表示しています。
+      レース単位のおすすめ判定はまだ行っていません。
+    </p>
+    <div class="note">
+      次の開発段階で、出走表・艇番・選手成績・モーター・展示・気象条件・実際の着順を取り込み、
+      6号艇が1〜3着に入る可能性をレースごとに評価します。
+    </div>
+  </div>
+
+  <div class="status" id="updatedAt"></div>
+  <div class="status" id="sourceInfo"></div>
 </main>
+
+<footer>
+  BOAT RACE AI ANALYZER
+</footer>
+
 <script>
-function show(type,button){
-document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
-button.classList.add('active');
-const content=document.getElementById('content');
-const pages={
-recommend:'<h2>⭐ おすすめレース</h2><p>分析データがまだありません。</p>',
-analysis:'<h2>🚤 6号艇分析</h2><p>1着率・2着率・3着率・3着内率を集計します。</p>',
-history:'<h2>📊 過去成績</h2><p>過去データの的中率・回収率を検証します。</p>'
-};
-content.innerHTML=pages[type];
+let analysisData = null;
+
+function percent(value) {
+  return value == null ? "--" : Number(value).toFixed(2) + "%";
 }
+
+function number(value) {
+  return value == null ? "--" : Number(value).toLocaleString("ja-JP");
+}
+
+function showError(message) {
+  document.getElementById("status").textContent = message;
+  document.getElementById("status").className = "status warning";
+}
+
+function render(data) {
+  analysisData = data;
+
+  document.getElementById("venueCount").textContent =
+    number(data.venue_count);
+
+  const six = data.six_course || {};
+  document.getElementById("sixStarts").textContent =
+    number(six.starts);
+  document.getElementById("sixWin").textContent =
+    percent(six.win_rate);
+  document.getElementById("sixPlace").textContent =
+    percent(six.place3_rate);
+
+  const national = data.national_course_summary || {};
+  const nationalBody = document.getElementById("nationalTable");
+  nationalBody.innerHTML = "";
+
+  for (let i = 1; i <= 6; i++) {
+    const row = national[String(i)];
+    if (!row) continue;
+
+    nationalBody.insertAdjacentHTML("beforeend", `
+      <tr>
+        <td>${i}コース</td>
+        <td>${number(row.starts)}</td>
+        <td>${percent(row.win_rate)}</td>
+        <td>${percent(row.place2_rate)}</td>
+        <td class="${i === 6 ? "highlight" : ""}">
+          ${percent(row.place3_rate)}
+        </td>
+      </tr>
+    `);
+  }
+
+  const ranking = data.course6_ranking || [];
+  const rankingBody = document.getElementById("rankingTable");
+  rankingBody.innerHTML = "";
+
+  ranking.forEach((venue, index) => {
+    const row = venue.course6;
+    rankingBody.insertAdjacentHTML("beforeend", `
+      <tr>
+        <td class="rank">${index + 1}位</td>
+        <td>${venue.venue}</td>
+        <td>${number(row.starts)}</td>
+        <td>${percent(row.win_rate)}</td>
+        <td class="highlight">${percent(row.place3_rate)}</td>
+      </tr>
+    `);
+  });
+
+  const venues = data.venue_details || [];
+  const select = document.getElementById("venueSelect");
+  select.innerHTML = "";
+
+  venues.forEach(venue => {
+    const option = document.createElement("option");
+    option.value = venue.venue;
+    option.textContent = venue.venue;
+    select.appendChild(option);
+  });
+
+  select.onchange = () => renderVenue(select.value);
+
+  if (venues.length) {
+    select.value = venues[0].venue;
+    renderVenue(venues[0].venue);
+  }
+
+  document.getElementById("updatedAt").textContent =
+    "最終更新：" + (data.generated_at || "不明");
+
+  document.getElementById("sourceInfo").textContent =
+    "データ提供元：" + (data.credit?.name || "不明");
+
+  document.getElementById("status").textContent =
+    "データ読み込み成功";
+  document.getElementById("status").className = "status good";
+}
+
+function renderVenue(name) {
+  if (!analysisData) return;
+
+  const venue = (analysisData.venue_details || [])
+    .find(item => item.venue === name);
+
+  const body = document.getElementById("venueTable");
+  body.innerHTML = "";
+
+  if (!venue || !venue.courses) {
+    body.innerHTML = "<tr><td colspan='5'>データがありません</td></tr>";
+    return;
+  }
+
+  venue.courses.forEach(row => {
+    body.insertAdjacentHTML("beforeend", `
+      <tr>
+        <td>${row.course}コース</td>
+        <td>${number(row.starts)}</td>
+        <td>${percent(row.win_rate)}</td>
+        <td>${percent(row.place2_rate)}</td>
+        <td class="${row.course === 6 ? "highlight" : ""}">
+          ${percent(row.place3_rate)}
+        </td>
+      </tr>
+    `);
+  });
+}
+
+async function loadData() {
+  try {
+    const response = await fetch(
+      "./data/analysis.json?v=" + Date.now(),
+      { cache: "no-store" }
+    );
+
+    if (!response.ok) {
+      throw new Error("データファイルを取得できませんでした");
+    }
+
+    const data = await response.json();
+
+    if (!data || !data.national_course_summary) {
+      throw new Error("分析データの形式が正しくありません");
+    }
+
+    render(data);
+  } catch (error) {
+    showError("読み込みエラー：" + error.message);
+  }
+}
+
+loadData();
 </script>
 </body>
 </html>
