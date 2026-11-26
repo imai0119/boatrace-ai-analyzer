@@ -1,0 +1,1096 @@
+{
+  "collected_at": "2026-11-26T22:00:34.350779+09:00",
+  "source": "https://boatrace-db.jp/api/today/",
+  "data_type": "today",
+  "data": {
+    "source": "BOAT RACEオフィシャルウェブサイトの競走成績・番組表(ダウンロードファイル)を艇愛ボートレースDB(boatrace-db.jp)が集計",
+    "credit": {
+      "name": "艇愛ボートレースDB",
+      "url": "https://boatrace-db.jp/",
+      "notice": "データ提供：艇愛ボートレースDB (boatrace-db.jp) と、リンクを添えて掲載してください"
+    },
+    "date": "2026-11-26",
+    "venues": [
+      {
+        "pid": 3,
+        "venue": "江戸川",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2064,
+            "win_rate": 47,
+            "place2_rate": 67.1,
+            "place3_rate": 78.3
+          },
+          {
+            "course": 2,
+            "starts": 2062,
+            "win_rate": 17.1,
+            "place2_rate": 40.8,
+            "place3_rate": 59.7
+          },
+          {
+            "course": 3,
+            "starts": 2058,
+            "win_rate": 14.7,
+            "place2_rate": 35.3,
+            "place3_rate": 53.9
+          },
+          {
+            "course": 4,
+            "starts": 2064,
+            "win_rate": 12,
+            "place2_rate": 26.7,
+            "place3_rate": 44.8
+          },
+          {
+            "course": 5,
+            "starts": 2057,
+            "win_rate": 6.8,
+            "place2_rate": 20.5,
+            "place3_rate": 38.7
+          },
+          {
+            "course": 6,
+            "starts": 2014,
+            "win_rate": 3,
+            "place2_rate": 11,
+            "place3_rate": 26.9
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 907,
+            "share": 43.8
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 455,
+            "share": 21.9
+          },
+          {
+            "kimarite": "差し",
+            "wins": 280,
+            "share": 13.5
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 210,
+            "share": 10.1
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 198,
+            "share": 9.6
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 23,
+            "share": 1.1
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/03/",
+        "title": "第５０回デイリースポーツ杯・フィールズカップ",
+        "grade": "一般",
+        "day_no": 1,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 5,
+        "venue": "多摩川",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2294,
+            "win_rate": 54.4,
+            "place2_rate": 70.1,
+            "place3_rate": 80.3
+          },
+          {
+            "course": 2,
+            "starts": 2295,
+            "win_rate": 13.5,
+            "place2_rate": 37.7,
+            "place3_rate": 56.6
+          },
+          {
+            "course": 3,
+            "starts": 2285,
+            "win_rate": 12.7,
+            "place2_rate": 35,
+            "place3_rate": 55.3
+          },
+          {
+            "course": 4,
+            "starts": 2295,
+            "win_rate": 11.1,
+            "place2_rate": 28.3,
+            "place3_rate": 47.5
+          },
+          {
+            "course": 5,
+            "starts": 2285,
+            "win_rate": 6.2,
+            "place2_rate": 20.1,
+            "place3_rate": 37.5
+          },
+          {
+            "course": 6,
+            "starts": 2272,
+            "win_rate": 2.5,
+            "place2_rate": 9.5,
+            "place3_rate": 23.9
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1192,
+            "share": 51.8
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 413,
+            "share": 18
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 270,
+            "share": 11.7
+          },
+          {
+            "kimarite": "差し",
+            "wins": 269,
+            "share": 11.7
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 140,
+            "share": 6.1
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 15,
+            "share": 0.7
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/05/",
+        "title": "第３回坂上忍杯",
+        "grade": "一般",
+        "day_no": 6,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 8,
+        "venue": "常滑",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2546,
+            "win_rate": 58.3,
+            "place2_rate": 73.6,
+            "place3_rate": 82.1
+          },
+          {
+            "course": 2,
+            "starts": 2545,
+            "win_rate": 13.3,
+            "place2_rate": 37.7,
+            "place3_rate": 56
+          },
+          {
+            "course": 3,
+            "starts": 2542,
+            "win_rate": 10.4,
+            "place2_rate": 33.3,
+            "place3_rate": 53.8
+          },
+          {
+            "course": 4,
+            "starts": 2544,
+            "win_rate": 10.3,
+            "place2_rate": 27.7,
+            "place3_rate": 48.2
+          },
+          {
+            "course": 5,
+            "starts": 2540,
+            "win_rate": 5.9,
+            "place2_rate": 19.9,
+            "place3_rate": 38.7
+          },
+          {
+            "course": 6,
+            "starts": 2519,
+            "win_rate": 2.1,
+            "place2_rate": 8.4,
+            "place3_rate": 22.3
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1423,
+            "share": 55.8
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 405,
+            "share": 15.9
+          },
+          {
+            "kimarite": "差し",
+            "wins": 280,
+            "share": 11
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 276,
+            "share": 10.8
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 142,
+            "share": 5.6
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 24,
+            "share": 0.9
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/08/",
+        "title": "第２９回チャレンジカップ／Ｇ２レディースＣＣ",
+        "grade": "SG",
+        "day_no": 3,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 10,
+        "venue": "三国",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2266,
+            "win_rate": 52.2,
+            "place2_rate": 70.1,
+            "place3_rate": 78.8
+          },
+          {
+            "course": 2,
+            "starts": 2267,
+            "win_rate": 14.8,
+            "place2_rate": 40,
+            "place3_rate": 58.9
+          },
+          {
+            "course": 3,
+            "starts": 2267,
+            "win_rate": 14.9,
+            "place2_rate": 36.7,
+            "place3_rate": 55.3
+          },
+          {
+            "course": 4,
+            "starts": 2263,
+            "win_rate": 10.6,
+            "place2_rate": 28,
+            "place3_rate": 49.3
+          },
+          {
+            "course": 5,
+            "starts": 2261,
+            "win_rate": 6,
+            "place2_rate": 18.1,
+            "place3_rate": 37.5
+          },
+          {
+            "course": 6,
+            "starts": 2249,
+            "win_rate": 1.8,
+            "place2_rate": 7.7,
+            "place3_rate": 21.3
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1118,
+            "share": 49.2
+          },
+          {
+            "kimarite": "差し",
+            "wins": 360,
+            "share": 15.8
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 343,
+            "share": 15.1
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 283,
+            "share": 12.5
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 150,
+            "share": 6.6
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 18,
+            "share": 0.8
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/10/",
+        "title": "スズキ・カープラザカップ",
+        "grade": "一般",
+        "day_no": 6,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 11,
+        "venue": "びわこ",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2178,
+            "win_rate": 54.2,
+            "place2_rate": 72.3,
+            "place3_rate": 80.5
+          },
+          {
+            "course": 2,
+            "starts": 2177,
+            "win_rate": 13.6,
+            "place2_rate": 38.9,
+            "place3_rate": 57.7
+          },
+          {
+            "course": 3,
+            "starts": 2174,
+            "win_rate": 14,
+            "place2_rate": 36.2,
+            "place3_rate": 55.7
+          },
+          {
+            "course": 4,
+            "starts": 2174,
+            "win_rate": 10,
+            "place2_rate": 25.7,
+            "place3_rate": 45.6
+          },
+          {
+            "course": 5,
+            "starts": 2174,
+            "win_rate": 6.5,
+            "place2_rate": 19.5,
+            "place3_rate": 38.5
+          },
+          {
+            "course": 6,
+            "starts": 2147,
+            "win_rate": 1.8,
+            "place2_rate": 8,
+            "place3_rate": 22.8
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1134,
+            "share": 52
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 325,
+            "share": 14.9
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 303,
+            "share": 13.9
+          },
+          {
+            "kimarite": "差し",
+            "wins": 277,
+            "share": 12.7
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 124,
+            "share": 5.7
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 18,
+            "share": 0.8
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/11/",
+        "title": "キリンカップ２０２６",
+        "grade": "一般",
+        "day_no": 4,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 12,
+        "venue": "住之江",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2268,
+            "win_rate": 57.5,
+            "place2_rate": 74.2,
+            "place3_rate": 83.5
+          },
+          {
+            "course": 2,
+            "starts": 2262,
+            "win_rate": 13.9,
+            "place2_rate": 40.1,
+            "place3_rate": 58.2
+          },
+          {
+            "course": 3,
+            "starts": 2263,
+            "win_rate": 11.4,
+            "place2_rate": 33.2,
+            "place3_rate": 56
+          },
+          {
+            "course": 4,
+            "starts": 2267,
+            "win_rate": 10.3,
+            "place2_rate": 27.3,
+            "place3_rate": 46.1
+          },
+          {
+            "course": 5,
+            "starts": 2261,
+            "win_rate": 5.3,
+            "place2_rate": 17.6,
+            "place3_rate": 35.1
+          },
+          {
+            "course": 6,
+            "starts": 2246,
+            "win_rate": 1.7,
+            "place2_rate": 7.8,
+            "place3_rate": 21.6
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1264,
+            "share": 55.8
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 337,
+            "share": 14.9
+          },
+          {
+            "kimarite": "差し",
+            "wins": 292,
+            "share": 12.9
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 240,
+            "share": 10.6
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 119,
+            "share": 5.2
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 15,
+            "share": 0.7
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/12/",
+        "title": "サンテレビ杯争奪ボートの時間！ご視聴ありがとう競走",
+        "grade": "一般",
+        "day_no": 6,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 15,
+        "venue": "丸亀",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2299,
+            "win_rate": 55.3,
+            "place2_rate": 74.3,
+            "place3_rate": 82
+          },
+          {
+            "course": 2,
+            "starts": 2299,
+            "win_rate": 13.1,
+            "place2_rate": 39.2,
+            "place3_rate": 56.9
+          },
+          {
+            "course": 3,
+            "starts": 2299,
+            "win_rate": 12.7,
+            "place2_rate": 32.6,
+            "place3_rate": 51.6
+          },
+          {
+            "course": 4,
+            "starts": 2301,
+            "win_rate": 10.1,
+            "place2_rate": 27.2,
+            "place3_rate": 49.4
+          },
+          {
+            "course": 5,
+            "starts": 2293,
+            "win_rate": 6.9,
+            "place2_rate": 18.8,
+            "place3_rate": 36.2
+          },
+          {
+            "course": 6,
+            "starts": 2274,
+            "win_rate": 2.2,
+            "place2_rate": 8.8,
+            "place3_rate": 25.2
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1224,
+            "share": 53
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 330,
+            "share": 14.3
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 301,
+            "share": 13
+          },
+          {
+            "kimarite": "差し",
+            "wins": 300,
+            "share": 13
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 135,
+            "share": 5.8
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 18,
+            "share": 0.8
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/15/",
+        "title": "にっぽん未来プロジェクト競走ｉｎまるがめ",
+        "grade": "一般",
+        "day_no": 3,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 17,
+        "venue": "宮島",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2331,
+            "win_rate": 57.4,
+            "place2_rate": 73.7,
+            "place3_rate": 82.1
+          },
+          {
+            "course": 2,
+            "starts": 2326,
+            "win_rate": 12,
+            "place2_rate": 37.4,
+            "place3_rate": 57.6
+          },
+          {
+            "course": 3,
+            "starts": 2325,
+            "win_rate": 13.7,
+            "place2_rate": 36.1,
+            "place3_rate": 57.5
+          },
+          {
+            "course": 4,
+            "starts": 2329,
+            "win_rate": 10.1,
+            "place2_rate": 27,
+            "place3_rate": 46.6
+          },
+          {
+            "course": 5,
+            "starts": 2323,
+            "win_rate": 5.6,
+            "place2_rate": 18.9,
+            "place3_rate": 37.5
+          },
+          {
+            "course": 6,
+            "starts": 2295,
+            "win_rate": 1.5,
+            "place2_rate": 7.5,
+            "place3_rate": 19.7
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1282,
+            "share": 54.9
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 384,
+            "share": 16.5
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 289,
+            "share": 12.4
+          },
+          {
+            "kimarite": "差し",
+            "wins": 231,
+            "share": 9.9
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 133,
+            "share": 5.7
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 15,
+            "share": 0.6
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/17/",
+        "title": "第２３回日本モーターボート選手会会長賞",
+        "grade": "一般",
+        "day_no": 2,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 18,
+        "venue": "徳山",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2599,
+            "win_rate": 61.6,
+            "place2_rate": 78,
+            "place3_rate": 85.3
+          },
+          {
+            "course": 2,
+            "starts": 2599,
+            "win_rate": 12.6,
+            "place2_rate": 40.7,
+            "place3_rate": 59.2
+          },
+          {
+            "course": 3,
+            "starts": 2594,
+            "win_rate": 11.5,
+            "place2_rate": 33.6,
+            "place3_rate": 53.6
+          },
+          {
+            "course": 4,
+            "starts": 2594,
+            "win_rate": 8.8,
+            "place2_rate": 24.8,
+            "place3_rate": 47.1
+          },
+          {
+            "course": 5,
+            "starts": 2590,
+            "win_rate": 4.6,
+            "place2_rate": 17,
+            "place3_rate": 35.5
+          },
+          {
+            "course": 6,
+            "starts": 2574,
+            "win_rate": 1.2,
+            "place2_rate": 6.4,
+            "place3_rate": 20.5
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1527,
+            "share": 58.6
+          },
+          {
+            "kimarite": "差し",
+            "wins": 329,
+            "share": 12.6
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 326,
+            "share": 12.5
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 234,
+            "share": 9
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 176,
+            "share": 6.8
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 12,
+            "share": 0.5
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/18/",
+        "title": "新周南新聞社杯争奪戦",
+        "grade": "一般",
+        "day_no": 3,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 19,
+        "venue": "下関",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2261,
+            "win_rate": 61.7,
+            "place2_rate": 79.1,
+            "place3_rate": 87
+          },
+          {
+            "course": 2,
+            "starts": 2257,
+            "win_rate": 10.7,
+            "place2_rate": 36.6,
+            "place3_rate": 57.6
+          },
+          {
+            "course": 3,
+            "starts": 2257,
+            "win_rate": 12.1,
+            "place2_rate": 35.2,
+            "place3_rate": 55.9
+          },
+          {
+            "course": 4,
+            "starts": 2261,
+            "win_rate": 9.1,
+            "place2_rate": 25.1,
+            "place3_rate": 45.1
+          },
+          {
+            "course": 5,
+            "starts": 2258,
+            "win_rate": 4.9,
+            "place2_rate": 17.4,
+            "place3_rate": 36.3
+          },
+          {
+            "course": 6,
+            "starts": 2237,
+            "win_rate": 1.8,
+            "place2_rate": 7.2,
+            "place3_rate": 19
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1326,
+            "share": 58.6
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 283,
+            "share": 12.5
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 272,
+            "share": 12
+          },
+          {
+            "kimarite": "差し",
+            "wins": 218,
+            "share": 9.6
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 148,
+            "share": 6.5
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 17,
+            "share": 0.8
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/19/",
+        "title": "新日本プロレス杯",
+        "grade": "一般",
+        "day_no": 4,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 20,
+        "venue": "若松",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2358,
+            "win_rate": 59.3,
+            "place2_rate": 76.1,
+            "place3_rate": 85
+          },
+          {
+            "course": 2,
+            "starts": 2353,
+            "win_rate": 13.5,
+            "place2_rate": 38.6,
+            "place3_rate": 58.4
+          },
+          {
+            "course": 3,
+            "starts": 2361,
+            "win_rate": 11.1,
+            "place2_rate": 35.1,
+            "place3_rate": 56.2
+          },
+          {
+            "course": 4,
+            "starts": 2354,
+            "win_rate": 9.9,
+            "place2_rate": 27.9,
+            "place3_rate": 46.6
+          },
+          {
+            "course": 5,
+            "starts": 2355,
+            "win_rate": 4.8,
+            "place2_rate": 15.3,
+            "place3_rate": 33.5
+          },
+          {
+            "course": 6,
+            "starts": 2335,
+            "win_rate": 1.7,
+            "place2_rate": 7.6,
+            "place3_rate": 21.6
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1339,
+            "share": 56.6
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 318,
+            "share": 13.5
+          },
+          {
+            "kimarite": "差し",
+            "wins": 303,
+            "share": 12.8
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 227,
+            "share": 9.6
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 161,
+            "share": 6.8
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 16,
+            "share": 0.7
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/20/",
+        "title": "日総希カップ",
+        "grade": "一般",
+        "day_no": 2,
+        "races": 12,
+        "results": 0
+      },
+      {
+        "pid": 23,
+        "venue": "唐津",
+        "period": {
+          "from": "2025-11-01",
+          "to": "2026-10-31"
+        },
+        "courses": [
+          {
+            "course": 1,
+            "starts": 2168,
+            "win_rate": 57.6,
+            "place2_rate": 75.7,
+            "place3_rate": 84.2
+          },
+          {
+            "course": 2,
+            "starts": 2167,
+            "win_rate": 13.5,
+            "place2_rate": 41.1,
+            "place3_rate": 61
+          },
+          {
+            "course": 3,
+            "starts": 2168,
+            "win_rate": 12.2,
+            "place2_rate": 34.8,
+            "place3_rate": 56.1
+          },
+          {
+            "course": 4,
+            "starts": 2170,
+            "win_rate": 9.5,
+            "place2_rate": 24.9,
+            "place3_rate": 46.2
+          },
+          {
+            "course": 5,
+            "starts": 2162,
+            "win_rate": 6,
+            "place2_rate": 17.8,
+            "place3_rate": 36.8
+          },
+          {
+            "course": 6,
+            "starts": 2149,
+            "win_rate": 1.7,
+            "place2_rate": 6.7,
+            "place3_rate": 17.3
+          }
+        ],
+        "kimarite": [
+          {
+            "kimarite": "逃げ",
+            "wins": 1190,
+            "share": 54.6
+          },
+          {
+            "kimarite": "差し",
+            "wins": 291,
+            "share": 13.4
+          },
+          {
+            "kimarite": "まくり",
+            "wins": 284,
+            "share": 13
+          },
+          {
+            "kimarite": "まくり差し",
+            "wins": 240,
+            "share": 11
+          },
+          {
+            "kimarite": "抜き",
+            "wins": 157,
+            "share": 7.2
+          },
+          {
+            "kimarite": "恵まれ",
+            "wins": 16,
+            "share": 0.7
+          }
+        ],
+        "url": "https://boatrace-db.jp/stadium/tcourse/pid/23/",
+        "title": "ニッカン・コム杯",
+        "grade": "一般",
+        "day_no": 1,
+        "races": 12,
+        "results": 0
+      }
+    ]
+  }
+}
