@@ -1,0 +1,40 @@
+
+name: Boat 6 Race Data
+
+on:
+  schedule:
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: boat6-data-collection
+  cancel-in-progress: false
+
+jobs:
+  collect-and-analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect boat 6 race data
+        run: python scripts/collect_boat6.py
+
+      - name: Analyze boat 6 data
+        run: python scripts/analyze_boat6.py
+
+      - name: Save analysis results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update boat 6 race analysis data"
+          file_pattern: "data/races/*.json data/boat6_analysis.json"
