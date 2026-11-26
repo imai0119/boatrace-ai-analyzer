@@ -1,0 +1,98 @@
+{
+  "collected_at": "2026-11-27T01:05:36.199160+09:00",
+  "source": "https://boatrace-db.jp/api/stadium/19/course/",
+  "source_name": "艇愛ボートレースDB",
+  "pid": 19,
+  "venue_name": "下関",
+  "data": {
+    "source": "BOAT RACEオフィシャルウェブサイトの競走成績・番組表(ダウンロードファイル)を艇愛ボートレースDB(boatrace-db.jp)が集計",
+    "credit": {
+      "name": "艇愛ボートレースDB",
+      "url": "https://boatrace-db.jp/",
+      "notice": "データ提供：艇愛ボートレースDB (boatrace-db.jp) と、リンクを添えて掲載してください"
+    },
+    "pid": 19,
+    "venue": "下関",
+    "period": {
+      "from": "2025-11-01",
+      "to": "2026-10-31"
+    },
+    "courses": [
+      {
+        "course": 1,
+        "starts": 2261,
+        "win_rate": 61.7,
+        "place2_rate": 79.1,
+        "place3_rate": 87
+      },
+      {
+        "course": 2,
+        "starts": 2257,
+        "win_rate": 10.7,
+        "place2_rate": 36.6,
+        "place3_rate": 57.6
+      },
+      {
+        "course": 3,
+        "starts": 2257,
+        "win_rate": 12.1,
+        "place2_rate": 35.2,
+        "place3_rate": 55.9
+      },
+      {
+        "course": 4,
+        "starts": 2261,
+        "win_rate": 9.1,
+        "place2_rate": 25.1,
+        "place3_rate": 45.1
+      },
+      {
+        "course": 5,
+        "starts": 2258,
+        "win_rate": 4.9,
+        "place2_rate": 17.4,
+        "place3_rate": 36.3
+      },
+      {
+        "course": 6,
+        "starts": 2237,
+        "win_rate": 1.8,
+        "place2_rate": 7.2,
+        "place3_rate": 19
+      }
+    ],
+    "kimarite": [
+      {
+        "kimarite": "逃げ",
+        "wins": 1326,
+        "share": 58.6
+      },
+      {
+        "kimarite": "まくり差し",
+        "wins": 283,
+        "share": 12.5
+      },
+      {
+        "kimarite": "まくり",
+        "wins": 272,
+        "share": 12
+      },
+      {
+        "kimarite": "差し",
+        "wins": 218,
+        "share": 9.6
+      },
+      {
+        "kimarite": "抜き",
+        "wins": 148,
+        "share": 6.5
+      },
+      {
+        "kimarite": "恵まれ",
+        "wins": 17,
+        "share": 0.8
+      }
+    ],
+    "url": "https://boatrace-db.jp/stadium/tcourse/pid/19/"
+  }
+}

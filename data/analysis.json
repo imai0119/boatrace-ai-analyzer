@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-11-26T23:40:16.403910+09:00",
-  "files_read": 25,
-  "total_course_records": 216,
+  "generated_at": "2026-11-27T01:06:34.242130+09:00",
+  "files_read": 50,
+  "total_course_records": 360,
   "venue_count": 24,
   "status": "success",
   "national_course_summary": {
     "1": {
-      "starts": 83157,
-      "win_rate": 55.88,
-      "place2_rate": 73.1,
-      "place3_rate": 81.91
+      "starts": 138682,
+      "win_rate": 55.75,
+      "place2_rate": 72.96,
+      "place3_rate": 81.79
     },
     "2": {
-      "starts": 83056,
-      "win_rate": 13.39,
-      "place2_rate": 38.83,
-      "place3_rate": 57.81
+      "starts": 138503,
+      "win_rate": 13.38,
+      "place2_rate": 38.79,
+      "place3_rate": 57.75
     },
     "3": {
-      "starts": 82991,
-      "win_rate": 12.79,
-      "place2_rate": 34.81,
-      "place3_rate": 54.93
+      "starts": 138389,
+      "win_rate": 12.84,
+      "place2_rate": 34.83,
+      "place3_rate": 54.91
     },
     "4": {
-      "starts": 83078,
-      "win_rate": 10.29,
-      "place2_rate": 26.95,
-      "place3_rate": 47.14
+      "starts": 138540,
+      "win_rate": 10.32,
+      "place2_rate": 26.99,
+      "place3_rate": 47.18
     },
     "5": {
-      "starts": 82919,
-      "win_rate": 6.04,
-      "place2_rate": 18.9,
-      "place3_rate": 37.48
+      "starts": 138279,
+      "win_rate": 6.1,
+      "place2_rate": 19.0,
+      "place3_rate": 37.62
     },
     "6": {
-      "starts": 82161,
+      "starts": 137011,
       "win_rate": 1.9,
-      "place2_rate": 8.09,
-      "place3_rate": 21.89
+      "place2_rate": 8.1,
+      "place3_rate": 21.91
     }
   },
   "six_course": {
-    "starts": 82161,
+    "starts": 137011,
     "win_rate": 1.9,
-    "place2_rate": 8.09,
-    "place3_rate": 21.89
+    "place2_rate": 8.1,
+    "place3_rate": 21.91
   },
   "venue_details": [
     {
@@ -54,42 +54,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4356,
+          "starts": 6534,
           "win_rate": 54.2,
           "place2_rate": 72.3,
           "place3_rate": 80.5
         },
         {
           "course": 2,
-          "starts": 4354,
+          "starts": 6531,
           "win_rate": 13.6,
           "place2_rate": 38.9,
           "place3_rate": 57.7
         },
         {
           "course": 3,
-          "starts": 4348,
+          "starts": 6522,
           "win_rate": 14.0,
           "place2_rate": 36.2,
           "place3_rate": 55.7
         },
         {
           "course": 4,
-          "starts": 4348,
+          "starts": 6522,
           "win_rate": 10.0,
           "place2_rate": 25.7,
           "place3_rate": 45.6
         },
         {
           "course": 5,
-          "starts": 4348,
+          "starts": 6522,
           "win_rate": 6.5,
           "place2_rate": 19.5,
           "place3_rate": 38.5
         },
         {
           "course": 6,
-          "starts": 4294,
+          "starts": 6441,
           "win_rate": 1.8,
           "place2_rate": 8.0,
           "place3_rate": 22.8
@@ -97,7 +97,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4294,
+        "starts": 6441,
         "win_rate": 1.8,
         "place2_rate": 8.0,
         "place3_rate": 22.8
@@ -108,42 +108,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4532,
+          "starts": 6798,
           "win_rate": 52.2,
           "place2_rate": 70.1,
           "place3_rate": 78.8
         },
         {
           "course": 2,
-          "starts": 4534,
+          "starts": 6801,
           "win_rate": 14.8,
           "place2_rate": 40.0,
           "place3_rate": 58.9
         },
         {
           "course": 3,
-          "starts": 4534,
+          "starts": 6801,
           "win_rate": 14.9,
           "place2_rate": 36.7,
           "place3_rate": 55.3
         },
         {
           "course": 4,
-          "starts": 4526,
+          "starts": 6789,
           "win_rate": 10.6,
           "place2_rate": 28.0,
           "place3_rate": 49.3
         },
         {
           "course": 5,
-          "starts": 4522,
+          "starts": 6783,
           "win_rate": 6.0,
           "place2_rate": 18.1,
           "place3_rate": 37.5
         },
         {
           "course": 6,
-          "starts": 4498,
+          "starts": 6747,
           "win_rate": 1.8,
           "place2_rate": 7.7,
           "place3_rate": 21.3
@@ -151,7 +151,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4498,
+        "starts": 6747,
         "win_rate": 1.8,
         "place2_rate": 7.7,
         "place3_rate": 21.3
@@ -162,42 +162,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4522,
+          "starts": 6783,
           "win_rate": 61.7,
           "place2_rate": 79.1,
           "place3_rate": 87.0
         },
         {
           "course": 2,
-          "starts": 4514,
+          "starts": 6771,
           "win_rate": 10.7,
           "place2_rate": 36.6,
           "place3_rate": 57.6
         },
         {
           "course": 3,
-          "starts": 4514,
+          "starts": 6771,
           "win_rate": 12.1,
           "place2_rate": 35.2,
           "place3_rate": 55.9
         },
         {
           "course": 4,
-          "starts": 4522,
+          "starts": 6783,
           "win_rate": 9.1,
           "place2_rate": 25.1,
           "place3_rate": 45.1
         },
         {
           "course": 5,
-          "starts": 4516,
+          "starts": 6774,
           "win_rate": 4.9,
           "place2_rate": 17.4,
           "place3_rate": 36.3
         },
         {
           "course": 6,
-          "starts": 4474,
+          "starts": 6711,
           "win_rate": 1.8,
           "place2_rate": 7.2,
           "place3_rate": 19.0
@@ -205,7 +205,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4474,
+        "starts": 6711,
         "win_rate": 1.8,
         "place2_rate": 7.2,
         "place3_rate": 19.0
@@ -216,42 +216,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4598,
+          "starts": 6897,
           "win_rate": 55.3,
           "place2_rate": 74.3,
           "place3_rate": 82.0
         },
         {
           "course": 2,
-          "starts": 4598,
+          "starts": 6897,
           "win_rate": 13.1,
           "place2_rate": 39.2,
           "place3_rate": 56.9
         },
         {
           "course": 3,
-          "starts": 4598,
+          "starts": 6897,
           "win_rate": 12.7,
           "place2_rate": 32.6,
           "place3_rate": 51.6
         },
         {
           "course": 4,
-          "starts": 4602,
+          "starts": 6903,
           "win_rate": 10.1,
           "place2_rate": 27.2,
           "place3_rate": 49.4
         },
         {
           "course": 5,
-          "starts": 4586,
+          "starts": 6879,
           "win_rate": 6.9,
           "place2_rate": 18.8,
           "place3_rate": 36.2
         },
         {
           "course": 6,
-          "starts": 4548,
+          "starts": 6822,
           "win_rate": 2.2,
           "place2_rate": 8.8,
           "place3_rate": 25.2
@@ -259,7 +259,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4548,
+        "starts": 6822,
         "win_rate": 2.2,
         "place2_rate": 8.8,
         "place3_rate": 25.2
@@ -270,42 +270,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4536,
+          "starts": 6804,
           "win_rate": 57.5,
           "place2_rate": 74.2,
           "place3_rate": 83.5
         },
         {
           "course": 2,
-          "starts": 4524,
+          "starts": 6786,
           "win_rate": 13.9,
           "place2_rate": 40.1,
           "place3_rate": 58.2
         },
         {
           "course": 3,
-          "starts": 4526,
+          "starts": 6789,
           "win_rate": 11.4,
           "place2_rate": 33.2,
           "place3_rate": 56.0
         },
         {
           "course": 4,
-          "starts": 4534,
+          "starts": 6801,
           "win_rate": 10.3,
           "place2_rate": 27.3,
           "place3_rate": 46.1
         },
         {
           "course": 5,
-          "starts": 4522,
+          "starts": 6783,
           "win_rate": 5.3,
           "place2_rate": 17.6,
           "place3_rate": 35.1
         },
         {
           "course": 6,
-          "starts": 4492,
+          "starts": 6738,
           "win_rate": 1.7,
           "place2_rate": 7.8,
           "place3_rate": 21.6
@@ -313,7 +313,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4492,
+        "starts": 6738,
         "win_rate": 1.7,
         "place2_rate": 7.8,
         "place3_rate": 21.6
@@ -324,42 +324,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2409,
+          "starts": 4818,
           "win_rate": 54.1,
           "place2_rate": 71.5,
           "place3_rate": 80.7
         },
         {
           "course": 2,
-          "starts": 2405,
+          "starts": 4810,
           "win_rate": 12.6,
           "place2_rate": 36.5,
           "place3_rate": 54.8
         },
         {
           "course": 3,
-          "starts": 2406,
+          "starts": 4812,
           "win_rate": 14.0,
           "place2_rate": 33.5,
           "place3_rate": 51.9
         },
         {
           "course": 4,
-          "starts": 2405,
+          "starts": 4810,
           "win_rate": 10.8,
           "place2_rate": 29.6,
           "place3_rate": 49.7
         },
         {
           "course": 5,
-          "starts": 2408,
+          "starts": 4816,
           "win_rate": 6.5,
           "place2_rate": 19.8,
           "place3_rate": 39.4
         },
         {
           "course": 6,
-          "starts": 2381,
+          "starts": 4762,
           "win_rate": 2.2,
           "place2_rate": 9.5,
           "place3_rate": 24.2
@@ -367,7 +367,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2381,
+        "starts": 4762,
         "win_rate": 2.2,
         "place2_rate": 9.5,
         "place3_rate": 24.2
@@ -378,42 +378,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4336,
+          "starts": 6504,
           "win_rate": 57.6,
           "place2_rate": 75.7,
           "place3_rate": 84.2
         },
         {
           "course": 2,
-          "starts": 4334,
+          "starts": 6501,
           "win_rate": 13.5,
           "place2_rate": 41.1,
           "place3_rate": 61.0
         },
         {
           "course": 3,
-          "starts": 4336,
+          "starts": 6504,
           "win_rate": 12.2,
           "place2_rate": 34.8,
           "place3_rate": 56.1
         },
         {
           "course": 4,
-          "starts": 4340,
+          "starts": 6510,
           "win_rate": 9.5,
           "place2_rate": 24.9,
           "place3_rate": 46.2
         },
         {
           "course": 5,
-          "starts": 4324,
+          "starts": 6486,
           "win_rate": 6.0,
           "place2_rate": 17.8,
           "place3_rate": 36.8
         },
         {
           "course": 6,
-          "starts": 4298,
+          "starts": 6447,
           "win_rate": 1.7,
           "place2_rate": 6.7,
           "place3_rate": 17.3
@@ -421,7 +421,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4298,
+        "starts": 6447,
         "win_rate": 1.7,
         "place2_rate": 6.7,
         "place3_rate": 17.3
@@ -432,42 +432,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4588,
+          "starts": 6882,
           "win_rate": 54.4,
           "place2_rate": 70.1,
           "place3_rate": 80.3
         },
         {
           "course": 2,
-          "starts": 4590,
+          "starts": 6885,
           "win_rate": 13.5,
           "place2_rate": 37.7,
           "place3_rate": 56.6
         },
         {
           "course": 3,
-          "starts": 4570,
+          "starts": 6855,
           "win_rate": 12.7,
           "place2_rate": 35.0,
           "place3_rate": 55.3
         },
         {
           "course": 4,
-          "starts": 4590,
+          "starts": 6885,
           "win_rate": 11.1,
           "place2_rate": 28.3,
           "place3_rate": 47.5
         },
         {
           "course": 5,
-          "starts": 4570,
+          "starts": 6855,
           "win_rate": 6.2,
           "place2_rate": 20.1,
           "place3_rate": 37.5
         },
         {
           "course": 6,
-          "starts": 4544,
+          "starts": 6816,
           "win_rate": 2.5,
           "place2_rate": 9.5,
           "place3_rate": 23.9
@@ -475,7 +475,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4544,
+        "starts": 6816,
         "win_rate": 2.5,
         "place2_rate": 9.5,
         "place3_rate": 23.9
@@ -486,42 +486,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2354,
+          "starts": 4708,
           "win_rate": 61.0,
           "place2_rate": 78.7,
           "place3_rate": 85.3
         },
         {
           "course": 2,
-          "starts": 2347,
+          "starts": 4694,
           "win_rate": 12.4,
           "place2_rate": 39.6,
           "place3_rate": 58.6
         },
         {
           "course": 3,
-          "starts": 2342,
+          "starts": 4684,
           "win_rate": 10.7,
           "place2_rate": 34.2,
           "place3_rate": 56.0
         },
         {
           "course": 4,
-          "starts": 2350,
+          "starts": 4700,
           "win_rate": 9.0,
           "place2_rate": 23.6,
           "place3_rate": 43.6
         },
         {
           "course": 5,
-          "starts": 2347,
+          "starts": 4694,
           "win_rate": 5.5,
           "place2_rate": 17.2,
           "place3_rate": 35.5
         },
         {
           "course": 6,
-          "starts": 2333,
+          "starts": 4666,
           "win_rate": 1.4,
           "place2_rate": 6.9,
           "place3_rate": 21.5
@@ -529,7 +529,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2333,
+        "starts": 4666,
         "win_rate": 1.4,
         "place2_rate": 6.9,
         "place3_rate": 21.5
@@ -540,42 +540,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4662,
+          "starts": 6993,
           "win_rate": 57.4,
           "place2_rate": 73.7,
           "place3_rate": 82.1
         },
         {
           "course": 2,
-          "starts": 4652,
+          "starts": 6978,
           "win_rate": 12.0,
           "place2_rate": 37.4,
           "place3_rate": 57.6
         },
         {
           "course": 3,
-          "starts": 4650,
+          "starts": 6975,
           "win_rate": 13.7,
           "place2_rate": 36.1,
           "place3_rate": 57.5
         },
         {
           "course": 4,
-          "starts": 4658,
+          "starts": 6987,
           "win_rate": 10.1,
           "place2_rate": 27.0,
           "place3_rate": 46.6
         },
         {
           "course": 5,
-          "starts": 4646,
+          "starts": 6969,
           "win_rate": 5.6,
           "place2_rate": 18.9,
           "place3_rate": 37.5
         },
         {
           "course": 6,
-          "starts": 4590,
+          "starts": 6885,
           "win_rate": 1.5,
           "place2_rate": 7.5,
           "place3_rate": 19.7
@@ -583,7 +583,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4590,
+        "starts": 6885,
         "win_rate": 1.5,
         "place2_rate": 7.5,
         "place3_rate": 19.7
@@ -594,42 +594,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2521,
+          "starts": 5042,
           "win_rate": 60.1,
           "place2_rate": 76.0,
           "place3_rate": 84.5
         },
         {
           "course": 2,
-          "starts": 2514,
+          "starts": 5028,
           "win_rate": 12.3,
           "place2_rate": 37.4,
           "place3_rate": 55.1
         },
         {
           "course": 3,
-          "starts": 2513,
+          "starts": 5026,
           "win_rate": 11.5,
           "place2_rate": 32.5,
           "place3_rate": 53.6
         },
         {
           "course": 4,
-          "starts": 2515,
+          "starts": 5030,
           "win_rate": 9.9,
           "place2_rate": 28.2,
           "place3_rate": 49.4
         },
         {
           "course": 5,
-          "starts": 2509,
+          "starts": 5018,
           "win_rate": 5.0,
           "place2_rate": 19.2,
           "place3_rate": 37.6
         },
         {
           "course": 6,
-          "starts": 2484,
+          "starts": 4968,
           "win_rate": 1.4,
           "place2_rate": 7.2,
           "place3_rate": 20.9
@@ -637,7 +637,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2484,
+        "starts": 4968,
         "win_rate": 1.4,
         "place2_rate": 7.2,
         "place3_rate": 20.9
@@ -648,42 +648,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 5092,
+          "starts": 7638,
           "win_rate": 58.3,
           "place2_rate": 73.6,
           "place3_rate": 82.1
         },
         {
           "course": 2,
-          "starts": 5090,
+          "starts": 7635,
           "win_rate": 13.3,
           "place2_rate": 37.7,
           "place3_rate": 56.0
         },
         {
           "course": 3,
-          "starts": 5084,
+          "starts": 7626,
           "win_rate": 10.4,
           "place2_rate": 33.3,
           "place3_rate": 53.8
         },
         {
           "course": 4,
-          "starts": 5088,
+          "starts": 7632,
           "win_rate": 10.3,
           "place2_rate": 27.7,
           "place3_rate": 48.2
         },
         {
           "course": 5,
-          "starts": 5080,
+          "starts": 7620,
           "win_rate": 5.9,
           "place2_rate": 19.9,
           "place3_rate": 38.7
         },
         {
           "course": 6,
-          "starts": 5038,
+          "starts": 7557,
           "win_rate": 2.1,
           "place2_rate": 8.4,
           "place3_rate": 22.3
@@ -691,7 +691,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 5038,
+        "starts": 7557,
         "win_rate": 2.1,
         "place2_rate": 8.4,
         "place3_rate": 22.3
@@ -702,42 +702,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2037,
+          "starts": 4074,
           "win_rate": 44.5,
           "place2_rate": 63.3,
           "place3_rate": 74.8
         },
         {
           "course": 2,
-          "starts": 2032,
+          "starts": 4064,
           "win_rate": 16.3,
           "place2_rate": 40.2,
           "place3_rate": 60.0
         },
         {
           "course": 3,
-          "starts": 2032,
+          "starts": 4064,
           "win_rate": 16.9,
           "place2_rate": 36.0,
           "place3_rate": 55.0
         },
         {
           "course": 4,
-          "starts": 2036,
+          "starts": 4072,
           "win_rate": 12.3,
           "place2_rate": 29.3,
           "place3_rate": 47.4
         },
         {
           "course": 5,
-          "starts": 2030,
+          "starts": 4060,
           "win_rate": 7.9,
           "place2_rate": 21.8,
           "place3_rate": 38.2
         },
         {
           "course": 6,
-          "starts": 2014,
+          "starts": 4028,
           "win_rate": 2.5,
           "place2_rate": 10.4,
           "place3_rate": 26.1
@@ -745,7 +745,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2014,
+        "starts": 4028,
         "win_rate": 2.5,
         "place2_rate": 10.4,
         "place3_rate": 26.1
@@ -756,42 +756,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 5198,
+          "starts": 7797,
           "win_rate": 61.6,
           "place2_rate": 78.0,
           "place3_rate": 85.3
         },
         {
           "course": 2,
-          "starts": 5198,
+          "starts": 7797,
           "win_rate": 12.6,
           "place2_rate": 40.7,
           "place3_rate": 59.2
         },
         {
           "course": 3,
-          "starts": 5188,
+          "starts": 7782,
           "win_rate": 11.5,
           "place2_rate": 33.6,
           "place3_rate": 53.6
         },
         {
           "course": 4,
-          "starts": 5188,
+          "starts": 7782,
           "win_rate": 8.8,
           "place2_rate": 24.8,
           "place3_rate": 47.1
         },
         {
           "course": 5,
-          "starts": 5180,
+          "starts": 7770,
           "win_rate": 4.6,
           "place2_rate": 17.0,
           "place3_rate": 35.5
         },
         {
           "course": 6,
-          "starts": 5148,
+          "starts": 7722,
           "win_rate": 1.2,
           "place2_rate": 6.4,
           "place3_rate": 20.5
@@ -799,7 +799,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 5148,
+        "starts": 7722,
         "win_rate": 1.2,
         "place2_rate": 6.4,
         "place3_rate": 20.5
@@ -810,42 +810,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2217,
+          "starts": 4434,
           "win_rate": 42.5,
           "place2_rate": 61.4,
           "place3_rate": 72.7
         },
         {
           "course": 2,
-          "starts": 2207,
+          "starts": 4414,
           "win_rate": 17.5,
           "place2_rate": 41.2,
           "place3_rate": 57.7
         },
         {
           "course": 3,
-          "starts": 2207,
+          "starts": 4414,
           "win_rate": 16.6,
           "place2_rate": 36.2,
           "place3_rate": 54.2
         },
         {
           "course": 4,
-          "starts": 2212,
+          "starts": 4424,
           "win_rate": 13.7,
           "place2_rate": 30.2,
           "place3_rate": 50.1
         },
         {
           "course": 5,
-          "starts": 2202,
+          "starts": 4404,
           "win_rate": 7.9,
           "place2_rate": 22.3,
           "place3_rate": 42.6
         },
         {
           "course": 6,
-          "starts": 2185,
+          "starts": 4370,
           "win_rate": 2.2,
           "place2_rate": 9.7,
           "place3_rate": 24.3
@@ -853,7 +853,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2185,
+        "starts": 4370,
         "win_rate": 2.2,
         "place2_rate": 9.7,
         "place3_rate": 24.3
@@ -864,42 +864,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2406,
+          "starts": 4812,
           "win_rate": 50.7,
           "place2_rate": 68.7,
           "place3_rate": 78.6
         },
         {
           "course": 2,
-          "starts": 2400,
+          "starts": 4800,
           "win_rate": 12.1,
           "place2_rate": 36.4,
           "place3_rate": 55.5
         },
         {
           "course": 3,
-          "starts": 2392,
+          "starts": 4784,
           "win_rate": 13.4,
           "place2_rate": 36.7,
           "place3_rate": 55.2
         },
         {
           "course": 4,
-          "starts": 2396,
+          "starts": 4792,
           "win_rate": 12.3,
           "place2_rate": 26.7,
           "place3_rate": 46.9
         },
         {
           "course": 5,
-          "starts": 2395,
+          "starts": 4790,
           "win_rate": 9.3,
           "place2_rate": 23.4,
           "place3_rate": 42.6
         },
         {
           "course": 6,
-          "starts": 2371,
+          "starts": 4742,
           "win_rate": 2.6,
           "place2_rate": 9.0,
           "place3_rate": 22.8
@@ -907,7 +907,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2371,
+        "starts": 4742,
         "win_rate": 2.6,
         "place2_rate": 9.0,
         "place3_rate": 22.8
@@ -918,42 +918,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4128,
+          "starts": 6192,
           "win_rate": 47.0,
           "place2_rate": 67.1,
           "place3_rate": 78.3
         },
         {
           "course": 2,
-          "starts": 4124,
+          "starts": 6186,
           "win_rate": 17.1,
           "place2_rate": 40.8,
           "place3_rate": 59.7
         },
         {
           "course": 3,
-          "starts": 4116,
+          "starts": 6174,
           "win_rate": 14.7,
           "place2_rate": 35.3,
           "place3_rate": 53.9
         },
         {
           "course": 4,
-          "starts": 4128,
+          "starts": 6192,
           "win_rate": 12.0,
           "place2_rate": 26.7,
           "place3_rate": 44.8
         },
         {
           "course": 5,
-          "starts": 4114,
+          "starts": 6171,
           "win_rate": 6.8,
           "place2_rate": 20.5,
           "place3_rate": 38.7
         },
         {
           "course": 6,
-          "starts": 4028,
+          "starts": 6042,
           "win_rate": 3.0,
           "place2_rate": 11.0,
           "place3_rate": 26.9
@@ -961,7 +961,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4028,
+        "starts": 6042,
         "win_rate": 3.0,
         "place2_rate": 11.0,
         "place3_rate": 26.9
@@ -972,42 +972,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2301,
+          "starts": 4602,
           "win_rate": 57.6,
           "place2_rate": 73.8,
           "place3_rate": 82.4
         },
         {
           "course": 2,
-          "starts": 2299,
+          "starts": 4598,
           "win_rate": 13.7,
           "place2_rate": 40.8,
           "place3_rate": 59.2
         },
         {
           "course": 3,
-          "starts": 2300,
+          "starts": 4600,
           "win_rate": 11.5,
           "place2_rate": 33.0,
           "place3_rate": 53.4
         },
         {
           "course": 4,
-          "starts": 2300,
+          "starts": 4600,
           "win_rate": 9.6,
           "place2_rate": 26.5,
           "place3_rate": 47.2
         },
         {
           "course": 5,
-          "starts": 2298,
+          "starts": 4596,
           "win_rate": 6.1,
           "place2_rate": 18.2,
           "place3_rate": 36.9
         },
         {
           "course": 6,
-          "starts": 2276,
+          "starts": 4552,
           "win_rate": 1.7,
           "place2_rate": 8.3,
           "place3_rate": 21.8
@@ -1015,7 +1015,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2276,
+        "starts": 4552,
         "win_rate": 1.7,
         "place2_rate": 8.3,
         "place3_rate": 21.8
@@ -1026,42 +1026,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2439,
+          "starts": 4878,
           "win_rate": 54.8,
           "place2_rate": 72.0,
           "place3_rate": 80.4
         },
         {
           "course": 2,
-          "starts": 2438,
+          "starts": 4876,
           "win_rate": 12.9,
           "place2_rate": 37.7,
           "place3_rate": 56.2
         },
         {
           "course": 3,
-          "starts": 2436,
+          "starts": 4872,
           "win_rate": 13.5,
           "place2_rate": 35.8,
           "place3_rate": 56.7
         },
         {
           "course": 4,
-          "starts": 2437,
+          "starts": 4874,
           "win_rate": 10.2,
           "place2_rate": 25.6,
           "place3_rate": 44.6
         },
         {
           "course": 5,
-          "starts": 2436,
+          "starts": 4872,
           "win_rate": 6.8,
           "place2_rate": 20.4,
           "place3_rate": 40.4
         },
         {
           "course": 6,
-          "starts": 2408,
+          "starts": 4816,
           "win_rate": 2.1,
           "place2_rate": 9.1,
           "place3_rate": 22.7
@@ -1069,7 +1069,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2408,
+        "starts": 4816,
         "win_rate": 2.1,
         "place2_rate": 9.1,
         "place3_rate": 22.7
@@ -1080,42 +1080,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2324,
+          "starts": 4648,
           "win_rate": 59.4,
           "place2_rate": 76.2,
           "place3_rate": 84.5
         },
         {
           "course": 2,
-          "starts": 2320,
+          "starts": 4640,
           "win_rate": 15.2,
           "place2_rate": 42.1,
           "place3_rate": 62.4
         },
         {
           "course": 3,
-          "starts": 2319,
+          "starts": 4638,
           "win_rate": 13.9,
           "place2_rate": 38.0,
           "place3_rate": 56.7
         },
         {
           "course": 4,
-          "starts": 2318,
+          "starts": 4636,
           "win_rate": 7.4,
           "place2_rate": 23.2,
           "place3_rate": 46.5
         },
         {
           "course": 5,
-          "starts": 2314,
+          "starts": 4628,
           "win_rate": 3.5,
           "place2_rate": 16.6,
           "place3_rate": 35.9
         },
         {
           "course": 6,
-          "starts": 2298,
+          "starts": 4596,
           "win_rate": 0.8,
           "place2_rate": 4.4,
           "place3_rate": 15.0
@@ -1123,7 +1123,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2298,
+        "starts": 4596,
         "win_rate": 0.8,
         "place2_rate": 4.4,
         "place3_rate": 15.0
@@ -1134,42 +1134,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2286,
+          "starts": 4572,
           "win_rate": 61.2,
           "place2_rate": 76.6,
           "place3_rate": 84.3
         },
         {
           "course": 2,
-          "starts": 2286,
+          "starts": 4572,
           "win_rate": 9.7,
           "place2_rate": 33.9,
           "place3_rate": 54.3
         },
         {
           "course": 3,
-          "starts": 2273,
+          "starts": 4546,
           "win_rate": 10.9,
           "place2_rate": 34.1,
           "place3_rate": 53.3
         },
         {
           "course": 4,
-          "starts": 2281,
+          "starts": 4562,
           "win_rate": 10.0,
           "place2_rate": 28.1,
           "place3_rate": 48.0
         },
         {
           "course": 5,
-          "starts": 2282,
+          "starts": 4564,
           "win_rate": 6.8,
           "place2_rate": 20.7,
           "place3_rate": 39.9
         },
         {
           "course": 6,
-          "starts": 2261,
+          "starts": 4522,
           "win_rate": 1.8,
           "place2_rate": 7.5,
           "place3_rate": 21.6
@@ -1177,7 +1177,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2261,
+        "starts": 4522,
         "win_rate": 1.8,
         "place2_rate": 7.5,
         "place3_rate": 21.6
@@ -1188,42 +1188,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4716,
+          "starts": 7074,
           "win_rate": 59.3,
           "place2_rate": 76.1,
           "place3_rate": 85.0
         },
         {
           "course": 2,
-          "starts": 4706,
+          "starts": 7059,
           "win_rate": 13.5,
           "place2_rate": 38.6,
           "place3_rate": 58.4
         },
         {
           "course": 3,
-          "starts": 4722,
+          "starts": 7083,
           "win_rate": 11.1,
           "place2_rate": 35.1,
           "place3_rate": 56.2
         },
         {
           "course": 4,
-          "starts": 4708,
+          "starts": 7062,
           "win_rate": 9.9,
           "place2_rate": 27.9,
           "place3_rate": 46.6
         },
         {
           "course": 5,
-          "starts": 4710,
+          "starts": 7065,
           "win_rate": 4.8,
           "place2_rate": 15.3,
           "place3_rate": 33.5
         },
         {
           "course": 6,
-          "starts": 4670,
+          "starts": 7005,
           "win_rate": 1.7,
           "place2_rate": 7.6,
           "place3_rate": 21.6
@@ -1231,7 +1231,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4670,
+        "starts": 7005,
         "win_rate": 1.7,
         "place2_rate": 7.6,
         "place3_rate": 21.6
@@ -1242,42 +1242,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2470,
+          "starts": 4940,
           "win_rate": 57.5,
           "place2_rate": 73.2,
           "place3_rate": 82.3
         },
         {
           "course": 2,
-          "starts": 2464,
+          "starts": 4928,
           "win_rate": 11.6,
           "place2_rate": 37.1,
           "place3_rate": 55.9
         },
         {
           "course": 3,
-          "starts": 2458,
+          "starts": 4916,
           "win_rate": 11.5,
           "place2_rate": 34.2,
           "place3_rate": 55.9
         },
         {
           "course": 4,
-          "starts": 2466,
+          "starts": 4932,
           "win_rate": 11.0,
           "place2_rate": 28.5,
           "place3_rate": 48.5
         },
         {
           "course": 5,
-          "starts": 2456,
+          "starts": 4912,
           "win_rate": 6.4,
           "place2_rate": 19.9,
           "place3_rate": 38.6
         },
         {
           "course": 6,
-          "starts": 2434,
+          "starts": 4868,
           "win_rate": 2.2,
           "place2_rate": 7.7,
           "place3_rate": 19.8
@@ -1285,7 +1285,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2434,
+        "starts": 4868,
         "win_rate": 2.2,
         "place2_rate": 7.7,
         "place3_rate": 19.8
@@ -1296,42 +1296,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2129,
+          "starts": 4258,
           "win_rate": 49.0,
           "place2_rate": 67.1,
           "place3_rate": 76.7
         },
         {
           "course": 2,
-          "starts": 2126,
+          "starts": 4252,
           "win_rate": 14.4,
           "place2_rate": 38.5,
           "place3_rate": 57.6
         },
         {
           "course": 3,
-          "starts": 2127,
+          "starts": 4254,
           "win_rate": 15.7,
           "place2_rate": 36.2,
           "place3_rate": 54.4
         },
         {
           "course": 4,
-          "starts": 2130,
+          "starts": 4260,
           "win_rate": 11.6,
           "place2_rate": 29.8,
           "place3_rate": 49.2
         },
         {
           "course": 5,
-          "starts": 2124,
+          "starts": 4248,
           "win_rate": 7.7,
           "place2_rate": 19.8,
           "place3_rate": 38.6
         },
         {
           "course": 6,
-          "starts": 2094,
+          "starts": 4188,
           "win_rate": 2.1,
           "place2_rate": 9.6,
           "place3_rate": 25.2
@@ -1339,7 +1339,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2094,
+        "starts": 4188,
         "win_rate": 2.1,
         "place2_rate": 9.6,
         "place3_rate": 25.2
@@ -1352,42 +1352,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4128,
+          "starts": 6192,
           "win_rate": 47.0,
           "place2_rate": 67.1,
           "place3_rate": 78.3
         },
         {
           "course": 2,
-          "starts": 4124,
+          "starts": 6186,
           "win_rate": 17.1,
           "place2_rate": 40.8,
           "place3_rate": 59.7
         },
         {
           "course": 3,
-          "starts": 4116,
+          "starts": 6174,
           "win_rate": 14.7,
           "place2_rate": 35.3,
           "place3_rate": 53.9
         },
         {
           "course": 4,
-          "starts": 4128,
+          "starts": 6192,
           "win_rate": 12.0,
           "place2_rate": 26.7,
           "place3_rate": 44.8
         },
         {
           "course": 5,
-          "starts": 4114,
+          "starts": 6171,
           "win_rate": 6.8,
           "place2_rate": 20.5,
           "place3_rate": 38.7
         },
         {
           "course": 6,
-          "starts": 4028,
+          "starts": 6042,
           "win_rate": 3.0,
           "place2_rate": 11.0,
           "place3_rate": 26.9
@@ -1395,7 +1395,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4028,
+        "starts": 6042,
         "win_rate": 3.0,
         "place2_rate": 11.0,
         "place3_rate": 26.9
@@ -1406,42 +1406,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2037,
+          "starts": 4074,
           "win_rate": 44.5,
           "place2_rate": 63.3,
           "place3_rate": 74.8
         },
         {
           "course": 2,
-          "starts": 2032,
+          "starts": 4064,
           "win_rate": 16.3,
           "place2_rate": 40.2,
           "place3_rate": 60.0
         },
         {
           "course": 3,
-          "starts": 2032,
+          "starts": 4064,
           "win_rate": 16.9,
           "place2_rate": 36.0,
           "place3_rate": 55.0
         },
         {
           "course": 4,
-          "starts": 2036,
+          "starts": 4072,
           "win_rate": 12.3,
           "place2_rate": 29.3,
           "place3_rate": 47.4
         },
         {
           "course": 5,
-          "starts": 2030,
+          "starts": 4060,
           "win_rate": 7.9,
           "place2_rate": 21.8,
           "place3_rate": 38.2
         },
         {
           "course": 6,
-          "starts": 2014,
+          "starts": 4028,
           "win_rate": 2.5,
           "place2_rate": 10.4,
           "place3_rate": 26.1
@@ -1449,7 +1449,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2014,
+        "starts": 4028,
         "win_rate": 2.5,
         "place2_rate": 10.4,
         "place3_rate": 26.1
@@ -1460,42 +1460,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4598,
+          "starts": 6897,
           "win_rate": 55.3,
           "place2_rate": 74.3,
           "place3_rate": 82.0
         },
         {
           "course": 2,
-          "starts": 4598,
+          "starts": 6897,
           "win_rate": 13.1,
           "place2_rate": 39.2,
           "place3_rate": 56.9
         },
         {
           "course": 3,
-          "starts": 4598,
+          "starts": 6897,
           "win_rate": 12.7,
           "place2_rate": 32.6,
           "place3_rate": 51.6
         },
         {
           "course": 4,
-          "starts": 4602,
+          "starts": 6903,
           "win_rate": 10.1,
           "place2_rate": 27.2,
           "place3_rate": 49.4
         },
         {
           "course": 5,
-          "starts": 4586,
+          "starts": 6879,
           "win_rate": 6.9,
           "place2_rate": 18.8,
           "place3_rate": 36.2
         },
         {
           "course": 6,
-          "starts": 4548,
+          "starts": 6822,
           "win_rate": 2.2,
           "place2_rate": 8.8,
           "place3_rate": 25.2
@@ -1503,7 +1503,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4548,
+        "starts": 6822,
         "win_rate": 2.2,
         "place2_rate": 8.8,
         "place3_rate": 25.2
@@ -1514,42 +1514,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2129,
+          "starts": 4258,
           "win_rate": 49.0,
           "place2_rate": 67.1,
           "place3_rate": 76.7
         },
         {
           "course": 2,
-          "starts": 2126,
+          "starts": 4252,
           "win_rate": 14.4,
           "place2_rate": 38.5,
           "place3_rate": 57.6
         },
         {
           "course": 3,
-          "starts": 2127,
+          "starts": 4254,
           "win_rate": 15.7,
           "place2_rate": 36.2,
           "place3_rate": 54.4
         },
         {
           "course": 4,
-          "starts": 2130,
+          "starts": 4260,
           "win_rate": 11.6,
           "place2_rate": 29.8,
           "place3_rate": 49.2
         },
         {
           "course": 5,
-          "starts": 2124,
+          "starts": 4248,
           "win_rate": 7.7,
           "place2_rate": 19.8,
           "place3_rate": 38.6
         },
         {
           "course": 6,
-          "starts": 2094,
+          "starts": 4188,
           "win_rate": 2.1,
           "place2_rate": 9.6,
           "place3_rate": 25.2
@@ -1557,7 +1557,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2094,
+        "starts": 4188,
         "win_rate": 2.1,
         "place2_rate": 9.6,
         "place3_rate": 25.2
@@ -1568,42 +1568,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2217,
+          "starts": 4434,
           "win_rate": 42.5,
           "place2_rate": 61.4,
           "place3_rate": 72.7
         },
         {
           "course": 2,
-          "starts": 2207,
+          "starts": 4414,
           "win_rate": 17.5,
           "place2_rate": 41.2,
           "place3_rate": 57.7
         },
         {
           "course": 3,
-          "starts": 2207,
+          "starts": 4414,
           "win_rate": 16.6,
           "place2_rate": 36.2,
           "place3_rate": 54.2
         },
         {
           "course": 4,
-          "starts": 2212,
+          "starts": 4424,
           "win_rate": 13.7,
           "place2_rate": 30.2,
           "place3_rate": 50.1
         },
         {
           "course": 5,
-          "starts": 2202,
+          "starts": 4404,
           "win_rate": 7.9,
           "place2_rate": 22.3,
           "place3_rate": 42.6
         },
         {
           "course": 6,
-          "starts": 2185,
+          "starts": 4370,
           "win_rate": 2.2,
           "place2_rate": 9.7,
           "place3_rate": 24.3
@@ -1611,7 +1611,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2185,
+        "starts": 4370,
         "win_rate": 2.2,
         "place2_rate": 9.7,
         "place3_rate": 24.3
@@ -1622,42 +1622,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2409,
+          "starts": 4818,
           "win_rate": 54.1,
           "place2_rate": 71.5,
           "place3_rate": 80.7
         },
         {
           "course": 2,
-          "starts": 2405,
+          "starts": 4810,
           "win_rate": 12.6,
           "place2_rate": 36.5,
           "place3_rate": 54.8
         },
         {
           "course": 3,
-          "starts": 2406,
+          "starts": 4812,
           "win_rate": 14.0,
           "place2_rate": 33.5,
           "place3_rate": 51.9
         },
         {
           "course": 4,
-          "starts": 2405,
+          "starts": 4810,
           "win_rate": 10.8,
           "place2_rate": 29.6,
           "place3_rate": 49.7
         },
         {
           "course": 5,
-          "starts": 2408,
+          "starts": 4816,
           "win_rate": 6.5,
           "place2_rate": 19.8,
           "place3_rate": 39.4
         },
         {
           "course": 6,
-          "starts": 2381,
+          "starts": 4762,
           "win_rate": 2.2,
           "place2_rate": 9.5,
           "place3_rate": 24.2
@@ -1665,7 +1665,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2381,
+        "starts": 4762,
         "win_rate": 2.2,
         "place2_rate": 9.5,
         "place3_rate": 24.2
@@ -1676,42 +1676,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4588,
+          "starts": 6882,
           "win_rate": 54.4,
           "place2_rate": 70.1,
           "place3_rate": 80.3
         },
         {
           "course": 2,
-          "starts": 4590,
+          "starts": 6885,
           "win_rate": 13.5,
           "place2_rate": 37.7,
           "place3_rate": 56.6
         },
         {
           "course": 3,
-          "starts": 4570,
+          "starts": 6855,
           "win_rate": 12.7,
           "place2_rate": 35.0,
           "place3_rate": 55.3
         },
         {
           "course": 4,
-          "starts": 4590,
+          "starts": 6885,
           "win_rate": 11.1,
           "place2_rate": 28.3,
           "place3_rate": 47.5
         },
         {
           "course": 5,
-          "starts": 4570,
+          "starts": 6855,
           "win_rate": 6.2,
           "place2_rate": 20.1,
           "place3_rate": 37.5
         },
         {
           "course": 6,
-          "starts": 4544,
+          "starts": 6816,
           "win_rate": 2.5,
           "place2_rate": 9.5,
           "place3_rate": 23.9
@@ -1719,7 +1719,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4544,
+        "starts": 6816,
         "win_rate": 2.5,
         "place2_rate": 9.5,
         "place3_rate": 23.9
@@ -1730,42 +1730,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4356,
+          "starts": 6534,
           "win_rate": 54.2,
           "place2_rate": 72.3,
           "place3_rate": 80.5
         },
         {
           "course": 2,
-          "starts": 4354,
+          "starts": 6531,
           "win_rate": 13.6,
           "place2_rate": 38.9,
           "place3_rate": 57.7
         },
         {
           "course": 3,
-          "starts": 4348,
+          "starts": 6522,
           "win_rate": 14.0,
           "place2_rate": 36.2,
           "place3_rate": 55.7
         },
         {
           "course": 4,
-          "starts": 4348,
+          "starts": 6522,
           "win_rate": 10.0,
           "place2_rate": 25.7,
           "place3_rate": 45.6
         },
         {
           "course": 5,
-          "starts": 4348,
+          "starts": 6522,
           "win_rate": 6.5,
           "place2_rate": 19.5,
           "place3_rate": 38.5
         },
         {
           "course": 6,
-          "starts": 4294,
+          "starts": 6441,
           "win_rate": 1.8,
           "place2_rate": 8.0,
           "place3_rate": 22.8
@@ -1773,7 +1773,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4294,
+        "starts": 6441,
         "win_rate": 1.8,
         "place2_rate": 8.0,
         "place3_rate": 22.8
@@ -1784,42 +1784,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2406,
+          "starts": 4812,
           "win_rate": 50.7,
           "place2_rate": 68.7,
           "place3_rate": 78.6
         },
         {
           "course": 2,
-          "starts": 2400,
+          "starts": 4800,
           "win_rate": 12.1,
           "place2_rate": 36.4,
           "place3_rate": 55.5
         },
         {
           "course": 3,
-          "starts": 2392,
+          "starts": 4784,
           "win_rate": 13.4,
           "place2_rate": 36.7,
           "place3_rate": 55.2
         },
         {
           "course": 4,
-          "starts": 2396,
+          "starts": 4792,
           "win_rate": 12.3,
           "place2_rate": 26.7,
           "place3_rate": 46.9
         },
         {
           "course": 5,
-          "starts": 2395,
+          "starts": 4790,
           "win_rate": 9.3,
           "place2_rate": 23.4,
           "place3_rate": 42.6
         },
         {
           "course": 6,
-          "starts": 2371,
+          "starts": 4742,
           "win_rate": 2.6,
           "place2_rate": 9.0,
           "place3_rate": 22.8
@@ -1827,7 +1827,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2371,
+        "starts": 4742,
         "win_rate": 2.6,
         "place2_rate": 9.0,
         "place3_rate": 22.8
@@ -1838,42 +1838,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2439,
+          "starts": 4878,
           "win_rate": 54.8,
           "place2_rate": 72.0,
           "place3_rate": 80.4
         },
         {
           "course": 2,
-          "starts": 2438,
+          "starts": 4876,
           "win_rate": 12.9,
           "place2_rate": 37.7,
           "place3_rate": 56.2
         },
         {
           "course": 3,
-          "starts": 2436,
+          "starts": 4872,
           "win_rate": 13.5,
           "place2_rate": 35.8,
           "place3_rate": 56.7
         },
         {
           "course": 4,
-          "starts": 2437,
+          "starts": 4874,
           "win_rate": 10.2,
           "place2_rate": 25.6,
           "place3_rate": 44.6
         },
         {
           "course": 5,
-          "starts": 2436,
+          "starts": 4872,
           "win_rate": 6.8,
           "place2_rate": 20.4,
           "place3_rate": 40.4
         },
         {
           "course": 6,
-          "starts": 2408,
+          "starts": 4816,
           "win_rate": 2.1,
           "place2_rate": 9.1,
           "place3_rate": 22.7
@@ -1881,7 +1881,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2408,
+        "starts": 4816,
         "win_rate": 2.1,
         "place2_rate": 9.1,
         "place3_rate": 22.7
@@ -1892,42 +1892,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 5092,
+          "starts": 7638,
           "win_rate": 58.3,
           "place2_rate": 73.6,
           "place3_rate": 82.1
         },
         {
           "course": 2,
-          "starts": 5090,
+          "starts": 7635,
           "win_rate": 13.3,
           "place2_rate": 37.7,
           "place3_rate": 56.0
         },
         {
           "course": 3,
-          "starts": 5084,
+          "starts": 7626,
           "win_rate": 10.4,
           "place2_rate": 33.3,
           "place3_rate": 53.8
         },
         {
           "course": 4,
-          "starts": 5088,
+          "starts": 7632,
           "win_rate": 10.3,
           "place2_rate": 27.7,
           "place3_rate": 48.2
         },
         {
           "course": 5,
-          "starts": 5080,
+          "starts": 7620,
           "win_rate": 5.9,
           "place2_rate": 19.9,
           "place3_rate": 38.7
         },
         {
           "course": 6,
-          "starts": 5038,
+          "starts": 7557,
           "win_rate": 2.1,
           "place2_rate": 8.4,
           "place3_rate": 22.3
@@ -1935,7 +1935,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 5038,
+        "starts": 7557,
         "win_rate": 2.1,
         "place2_rate": 8.4,
         "place3_rate": 22.3
@@ -1946,42 +1946,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2301,
+          "starts": 4602,
           "win_rate": 57.6,
           "place2_rate": 73.8,
           "place3_rate": 82.4
         },
         {
           "course": 2,
-          "starts": 2299,
+          "starts": 4598,
           "win_rate": 13.7,
           "place2_rate": 40.8,
           "place3_rate": 59.2
         },
         {
           "course": 3,
-          "starts": 2300,
+          "starts": 4600,
           "win_rate": 11.5,
           "place2_rate": 33.0,
           "place3_rate": 53.4
         },
         {
           "course": 4,
-          "starts": 2300,
+          "starts": 4600,
           "win_rate": 9.6,
           "place2_rate": 26.5,
           "place3_rate": 47.2
         },
         {
           "course": 5,
-          "starts": 2298,
+          "starts": 4596,
           "win_rate": 6.1,
           "place2_rate": 18.2,
           "place3_rate": 36.9
         },
         {
           "course": 6,
-          "starts": 2276,
+          "starts": 4552,
           "win_rate": 1.7,
           "place2_rate": 8.3,
           "place3_rate": 21.8
@@ -1989,7 +1989,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2276,
+        "starts": 4552,
         "win_rate": 1.7,
         "place2_rate": 8.3,
         "place3_rate": 21.8
@@ -2000,42 +2000,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4536,
+          "starts": 6804,
           "win_rate": 57.5,
           "place2_rate": 74.2,
           "place3_rate": 83.5
         },
         {
           "course": 2,
-          "starts": 4524,
+          "starts": 6786,
           "win_rate": 13.9,
           "place2_rate": 40.1,
           "place3_rate": 58.2
         },
         {
           "course": 3,
-          "starts": 4526,
+          "starts": 6789,
           "win_rate": 11.4,
           "place2_rate": 33.2,
           "place3_rate": 56.0
         },
         {
           "course": 4,
-          "starts": 4534,
+          "starts": 6801,
           "win_rate": 10.3,
           "place2_rate": 27.3,
           "place3_rate": 46.1
         },
         {
           "course": 5,
-          "starts": 4522,
+          "starts": 6783,
           "win_rate": 5.3,
           "place2_rate": 17.6,
           "place3_rate": 35.1
         },
         {
           "course": 6,
-          "starts": 4492,
+          "starts": 6738,
           "win_rate": 1.7,
           "place2_rate": 7.8,
           "place3_rate": 21.6
@@ -2043,7 +2043,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4492,
+        "starts": 6738,
         "win_rate": 1.7,
         "place2_rate": 7.8,
         "place3_rate": 21.6
@@ -2054,42 +2054,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2286,
+          "starts": 4572,
           "win_rate": 61.2,
           "place2_rate": 76.6,
           "place3_rate": 84.3
         },
         {
           "course": 2,
-          "starts": 2286,
+          "starts": 4572,
           "win_rate": 9.7,
           "place2_rate": 33.9,
           "place3_rate": 54.3
         },
         {
           "course": 3,
-          "starts": 2273,
+          "starts": 4546,
           "win_rate": 10.9,
           "place2_rate": 34.1,
           "place3_rate": 53.3
         },
         {
           "course": 4,
-          "starts": 2281,
+          "starts": 4562,
           "win_rate": 10.0,
           "place2_rate": 28.1,
           "place3_rate": 48.0
         },
         {
           "course": 5,
-          "starts": 2282,
+          "starts": 4564,
           "win_rate": 6.8,
           "place2_rate": 20.7,
           "place3_rate": 39.9
         },
         {
           "course": 6,
-          "starts": 2261,
+          "starts": 4522,
           "win_rate": 1.8,
           "place2_rate": 7.5,
           "place3_rate": 21.6
@@ -2097,7 +2097,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2261,
+        "starts": 4522,
         "win_rate": 1.8,
         "place2_rate": 7.5,
         "place3_rate": 21.6
@@ -2108,42 +2108,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4716,
+          "starts": 7074,
           "win_rate": 59.3,
           "place2_rate": 76.1,
           "place3_rate": 85.0
         },
         {
           "course": 2,
-          "starts": 4706,
+          "starts": 7059,
           "win_rate": 13.5,
           "place2_rate": 38.6,
           "place3_rate": 58.4
         },
         {
           "course": 3,
-          "starts": 4722,
+          "starts": 7083,
           "win_rate": 11.1,
           "place2_rate": 35.1,
           "place3_rate": 56.2
         },
         {
           "course": 4,
-          "starts": 4708,
+          "starts": 7062,
           "win_rate": 9.9,
           "place2_rate": 27.9,
           "place3_rate": 46.6
         },
         {
           "course": 5,
-          "starts": 4710,
+          "starts": 7065,
           "win_rate": 4.8,
           "place2_rate": 15.3,
           "place3_rate": 33.5
         },
         {
           "course": 6,
-          "starts": 4670,
+          "starts": 7005,
           "win_rate": 1.7,
           "place2_rate": 7.6,
           "place3_rate": 21.6
@@ -2151,7 +2151,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4670,
+        "starts": 7005,
         "win_rate": 1.7,
         "place2_rate": 7.6,
         "place3_rate": 21.6
@@ -2162,42 +2162,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2354,
+          "starts": 4708,
           "win_rate": 61.0,
           "place2_rate": 78.7,
           "place3_rate": 85.3
         },
         {
           "course": 2,
-          "starts": 2347,
+          "starts": 4694,
           "win_rate": 12.4,
           "place2_rate": 39.6,
           "place3_rate": 58.6
         },
         {
           "course": 3,
-          "starts": 2342,
+          "starts": 4684,
           "win_rate": 10.7,
           "place2_rate": 34.2,
           "place3_rate": 56.0
         },
         {
           "course": 4,
-          "starts": 2350,
+          "starts": 4700,
           "win_rate": 9.0,
           "place2_rate": 23.6,
           "place3_rate": 43.6
         },
         {
           "course": 5,
-          "starts": 2347,
+          "starts": 4694,
           "win_rate": 5.5,
           "place2_rate": 17.2,
           "place3_rate": 35.5
         },
         {
           "course": 6,
-          "starts": 2333,
+          "starts": 4666,
           "win_rate": 1.4,
           "place2_rate": 6.9,
           "place3_rate": 21.5
@@ -2205,7 +2205,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2333,
+        "starts": 4666,
         "win_rate": 1.4,
         "place2_rate": 6.9,
         "place3_rate": 21.5
@@ -2216,42 +2216,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4532,
+          "starts": 6798,
           "win_rate": 52.2,
           "place2_rate": 70.1,
           "place3_rate": 78.8
         },
         {
           "course": 2,
-          "starts": 4534,
+          "starts": 6801,
           "win_rate": 14.8,
           "place2_rate": 40.0,
           "place3_rate": 58.9
         },
         {
           "course": 3,
-          "starts": 4534,
+          "starts": 6801,
           "win_rate": 14.9,
           "place2_rate": 36.7,
           "place3_rate": 55.3
         },
         {
           "course": 4,
-          "starts": 4526,
+          "starts": 6789,
           "win_rate": 10.6,
           "place2_rate": 28.0,
           "place3_rate": 49.3
         },
         {
           "course": 5,
-          "starts": 4522,
+          "starts": 6783,
           "win_rate": 6.0,
           "place2_rate": 18.1,
           "place3_rate": 37.5
         },
         {
           "course": 6,
-          "starts": 4498,
+          "starts": 6747,
           "win_rate": 1.8,
           "place2_rate": 7.7,
           "place3_rate": 21.3
@@ -2259,7 +2259,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4498,
+        "starts": 6747,
         "win_rate": 1.8,
         "place2_rate": 7.7,
         "place3_rate": 21.3
@@ -2270,42 +2270,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2521,
+          "starts": 5042,
           "win_rate": 60.1,
           "place2_rate": 76.0,
           "place3_rate": 84.5
         },
         {
           "course": 2,
-          "starts": 2514,
+          "starts": 5028,
           "win_rate": 12.3,
           "place2_rate": 37.4,
           "place3_rate": 55.1
         },
         {
           "course": 3,
-          "starts": 2513,
+          "starts": 5026,
           "win_rate": 11.5,
           "place2_rate": 32.5,
           "place3_rate": 53.6
         },
         {
           "course": 4,
-          "starts": 2515,
+          "starts": 5030,
           "win_rate": 9.9,
           "place2_rate": 28.2,
           "place3_rate": 49.4
         },
         {
           "course": 5,
-          "starts": 2509,
+          "starts": 5018,
           "win_rate": 5.0,
           "place2_rate": 19.2,
           "place3_rate": 37.6
         },
         {
           "course": 6,
-          "starts": 2484,
+          "starts": 4968,
           "win_rate": 1.4,
           "place2_rate": 7.2,
           "place3_rate": 20.9
@@ -2313,7 +2313,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2484,
+        "starts": 4968,
         "win_rate": 1.4,
         "place2_rate": 7.2,
         "place3_rate": 20.9
@@ -2324,42 +2324,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 5198,
+          "starts": 7797,
           "win_rate": 61.6,
           "place2_rate": 78.0,
           "place3_rate": 85.3
         },
         {
           "course": 2,
-          "starts": 5198,
+          "starts": 7797,
           "win_rate": 12.6,
           "place2_rate": 40.7,
           "place3_rate": 59.2
         },
         {
           "course": 3,
-          "starts": 5188,
+          "starts": 7782,
           "win_rate": 11.5,
           "place2_rate": 33.6,
           "place3_rate": 53.6
         },
         {
           "course": 4,
-          "starts": 5188,
+          "starts": 7782,
           "win_rate": 8.8,
           "place2_rate": 24.8,
           "place3_rate": 47.1
         },
         {
           "course": 5,
-          "starts": 5180,
+          "starts": 7770,
           "win_rate": 4.6,
           "place2_rate": 17.0,
           "place3_rate": 35.5
         },
         {
           "course": 6,
-          "starts": 5148,
+          "starts": 7722,
           "win_rate": 1.2,
           "place2_rate": 6.4,
           "place3_rate": 20.5
@@ -2367,7 +2367,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 5148,
+        "starts": 7722,
         "win_rate": 1.2,
         "place2_rate": 6.4,
         "place3_rate": 20.5
@@ -2378,42 +2378,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2470,
+          "starts": 4940,
           "win_rate": 57.5,
           "place2_rate": 73.2,
           "place3_rate": 82.3
         },
         {
           "course": 2,
-          "starts": 2464,
+          "starts": 4928,
           "win_rate": 11.6,
           "place2_rate": 37.1,
           "place3_rate": 55.9
         },
         {
           "course": 3,
-          "starts": 2458,
+          "starts": 4916,
           "win_rate": 11.5,
           "place2_rate": 34.2,
           "place3_rate": 55.9
         },
         {
           "course": 4,
-          "starts": 2466,
+          "starts": 4932,
           "win_rate": 11.0,
           "place2_rate": 28.5,
           "place3_rate": 48.5
         },
         {
           "course": 5,
-          "starts": 2456,
+          "starts": 4912,
           "win_rate": 6.4,
           "place2_rate": 19.9,
           "place3_rate": 38.6
         },
         {
           "course": 6,
-          "starts": 2434,
+          "starts": 4868,
           "win_rate": 2.2,
           "place2_rate": 7.7,
           "place3_rate": 19.8
@@ -2421,7 +2421,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2434,
+        "starts": 4868,
         "win_rate": 2.2,
         "place2_rate": 7.7,
         "place3_rate": 19.8
@@ -2432,42 +2432,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4662,
+          "starts": 6993,
           "win_rate": 57.4,
           "place2_rate": 73.7,
           "place3_rate": 82.1
         },
         {
           "course": 2,
-          "starts": 4652,
+          "starts": 6978,
           "win_rate": 12.0,
           "place2_rate": 37.4,
           "place3_rate": 57.6
         },
         {
           "course": 3,
-          "starts": 4650,
+          "starts": 6975,
           "win_rate": 13.7,
           "place2_rate": 36.1,
           "place3_rate": 57.5
         },
         {
           "course": 4,
-          "starts": 4658,
+          "starts": 6987,
           "win_rate": 10.1,
           "place2_rate": 27.0,
           "place3_rate": 46.6
         },
         {
           "course": 5,
-          "starts": 4646,
+          "starts": 6969,
           "win_rate": 5.6,
           "place2_rate": 18.9,
           "place3_rate": 37.5
         },
         {
           "course": 6,
-          "starts": 4590,
+          "starts": 6885,
           "win_rate": 1.5,
           "place2_rate": 7.5,
           "place3_rate": 19.7
@@ -2475,7 +2475,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4590,
+        "starts": 6885,
         "win_rate": 1.5,
         "place2_rate": 7.5,
         "place3_rate": 19.7
@@ -2486,42 +2486,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4522,
+          "starts": 6783,
           "win_rate": 61.7,
           "place2_rate": 79.1,
           "place3_rate": 87.0
         },
         {
           "course": 2,
-          "starts": 4514,
+          "starts": 6771,
           "win_rate": 10.7,
           "place2_rate": 36.6,
           "place3_rate": 57.6
         },
         {
           "course": 3,
-          "starts": 4514,
+          "starts": 6771,
           "win_rate": 12.1,
           "place2_rate": 35.2,
           "place3_rate": 55.9
         },
         {
           "course": 4,
-          "starts": 4522,
+          "starts": 6783,
           "win_rate": 9.1,
           "place2_rate": 25.1,
           "place3_rate": 45.1
         },
         {
           "course": 5,
-          "starts": 4516,
+          "starts": 6774,
           "win_rate": 4.9,
           "place2_rate": 17.4,
           "place3_rate": 36.3
         },
         {
           "course": 6,
-          "starts": 4474,
+          "starts": 6711,
           "win_rate": 1.8,
           "place2_rate": 7.2,
           "place3_rate": 19.0
@@ -2529,7 +2529,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4474,
+        "starts": 6711,
         "win_rate": 1.8,
         "place2_rate": 7.2,
         "place3_rate": 19.0
@@ -2540,42 +2540,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 4336,
+          "starts": 6504,
           "win_rate": 57.6,
           "place2_rate": 75.7,
           "place3_rate": 84.2
         },
         {
           "course": 2,
-          "starts": 4334,
+          "starts": 6501,
           "win_rate": 13.5,
           "place2_rate": 41.1,
           "place3_rate": 61.0
         },
         {
           "course": 3,
-          "starts": 4336,
+          "starts": 6504,
           "win_rate": 12.2,
           "place2_rate": 34.8,
           "place3_rate": 56.1
         },
         {
           "course": 4,
-          "starts": 4340,
+          "starts": 6510,
           "win_rate": 9.5,
           "place2_rate": 24.9,
           "place3_rate": 46.2
         },
         {
           "course": 5,
-          "starts": 4324,
+          "starts": 6486,
           "win_rate": 6.0,
           "place2_rate": 17.8,
           "place3_rate": 36.8
         },
         {
           "course": 6,
-          "starts": 4298,
+          "starts": 6447,
           "win_rate": 1.7,
           "place2_rate": 6.7,
           "place3_rate": 17.3
@@ -2583,7 +2583,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 4298,
+        "starts": 6447,
         "win_rate": 1.7,
         "place2_rate": 6.7,
         "place3_rate": 17.3
@@ -2594,42 +2594,42 @@
       "courses": [
         {
           "course": 1,
-          "starts": 2324,
+          "starts": 4648,
           "win_rate": 59.4,
           "place2_rate": 76.2,
           "place3_rate": 84.5
         },
         {
           "course": 2,
-          "starts": 2320,
+          "starts": 4640,
           "win_rate": 15.2,
           "place2_rate": 42.1,
           "place3_rate": 62.4
         },
         {
           "course": 3,
-          "starts": 2319,
+          "starts": 4638,
           "win_rate": 13.9,
           "place2_rate": 38.0,
           "place3_rate": 56.7
         },
         {
           "course": 4,
-          "starts": 2318,
+          "starts": 4636,
           "win_rate": 7.4,
           "place2_rate": 23.2,
           "place3_rate": 46.5
         },
         {
           "course": 5,
-          "starts": 2314,
+          "starts": 4628,
           "win_rate": 3.5,
           "place2_rate": 16.6,
           "place3_rate": 35.9
         },
         {
           "course": 6,
-          "starts": 2298,
+          "starts": 4596,
           "win_rate": 0.8,
           "place2_rate": 4.4,
           "place3_rate": 15.0
@@ -2637,7 +2637,7 @@
       ],
       "course6": {
         "course": 6,
-        "starts": 2298,
+        "starts": 4596,
         "win_rate": 0.8,
         "place2_rate": 4.4,
         "place3_rate": 15.0
