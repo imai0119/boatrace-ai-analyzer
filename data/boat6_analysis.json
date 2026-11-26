@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:27:47.710340+09:00",
+  "generated_at": "2026-11-27T08:53:12.500697+09:00",
   "files_read": 1,
   "boat_number": 6,
   "definition": "枠番6の艇を対象。本番の進入コースはresult.racersのcourse_numberを使用。",
