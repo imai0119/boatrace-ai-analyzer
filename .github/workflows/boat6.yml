@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: boat6-data-collection
+  group: shared-data-writes
   cancel-in-progress: false
 
 jobs:
