@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-11-27T01:06:48.320784+09:00",
+  "files_read": 1,
+  "boat_number": 6,
+  "definition": "枠番6の艇を対象。本番の進入コースはresult.racers['6'].course_numberを使用。",
+  "total_starts": 0,
+  "overall": {
+    "starts": 0,
+    "win_count": 0,
+    "top2_count": 0,
+    "top3_count": 0,
+    "win_rate": null,
+    "top2_rate": null,
+    "top3_rate": null
+  },
+  "by_venue": [],
+  "by_actual_course": {},
+  "records": [],
+  "errors": [],
+  "notes": [
+    "6号艇は枠番(entry_number)6として集計。",
+    "進入コースは本番結果(result)のcourse_numberを使用。",
+    "着順7以上、欠場、失格など着順として扱えない値は分母から除外。",
+    "集計はdata/races内に保存された日付の結果に限り、過去データは自動補完しない。",
+    "データ提供元は非公式API。公式情報と照合してください。"
+  ]
+}
