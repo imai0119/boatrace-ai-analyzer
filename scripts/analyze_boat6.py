@@ -143,8 +143,8 @@ def read_races():
                             continue
 
                         stats["boat6_found"] += 1
-                        if stats["boat6_found"] == 1:
-                            print("DEBUG boat6 racer:", json.dumps(racer, ensure_ascii=False))
+                        
+                            
                         place = as_int(racer.get("place_number"))
 
                         # 1〜6着のみを有効な着順として扱う
