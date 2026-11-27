@@ -3,6 +3,7 @@ import json
 import os
 import time
 import urllib.request
+import urllib.error
 from datetime import datetime, timezone, timedelta
 
 JST = timezone(timedelta(hours=9))
@@ -23,34 +24,41 @@ def fetch(url):
         headers={"User-Agent": "BoatraceAnalyzer/1.0"}
     )
 
-    for attempt in range(4):
+    for attempt in range(2):
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 raw = response.read()
-
-            return json.loads(raw.decode("utf-8")), len(raw)
+                return json.loads(raw.decode("utf-8")), len(raw)
 
         except urllib.error.HTTPError as e:
-            if e.code == 429 or 500 <= e.code < 600:
-                if attempt == 3:
-                    raise
-
-                wait = 15 * (attempt + 1)
-                print(f"HTTP {e.code}: {wait}秒待って再試行します")
-                time.sleep(wait)
-                continue
-
-            raise
-
-        except (urllib.error.URLError, TimeoutError) as e:
-            if attempt == 3:
+            if e.code == 429:
+                wait = 60
+            elif 500 <= e.code < 600:
+                wait = 10
+            else:
                 raise
 
-            wait = 10 * (attempt + 1)
-            print(f"通信エラー: {wait}秒待って再試行します: {e}")
+            if attempt == 1:
+                raise
+
+            print(
+                f"HTTP {e.code}: {wait}秒待って再試行します",
+                flush=True
+            )
             time.sleep(wait)
 
-    raise RuntimeError("再試行回数の上限に達しました")
+        except (urllib.error.URLError, TimeoutError) as e:
+            if attempt == 1:
+                raise
+
+            wait = 10
+            print(
+                f"通信エラー: {wait}秒待って再試行します: {e}",
+                flush=True
+            )
+            time.sleep(wait)
+
+    raise RuntimeError("データ取得に失敗しました")
 
 def save(path, data):
     with open(path, "w", encoding="utf-8") as f:
