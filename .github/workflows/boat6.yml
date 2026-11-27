@@ -2,8 +2,7 @@
 name: Boat 6 Race Data
 
 on:
-  schedule:
-    - cron: "0,30 0-14 * * *"
+  
   workflow_dispatch:
 
 permissions:
