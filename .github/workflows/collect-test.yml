@@ -3,8 +3,6 @@ name: Boat Race Data Collection Test
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "10 15 * * *"
 
 permissions:
   contents: write
