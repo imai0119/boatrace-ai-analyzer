@@ -84,7 +84,7 @@ def collect():
             })
             print("取得失敗:", venue, e)
 
-        time.sleep(0.2)
+        time.sleep(2.0)
 
     log = {
         "collected_at": now.isoformat(),
